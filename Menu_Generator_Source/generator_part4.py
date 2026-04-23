@@ -728,7 +728,7 @@ html_template = """<!DOCTYPE html>
     select.className = 'lang-select';
     select.onchange = (e) => switchLang(e.target.value);
     
-    LANGS.forEach(lang => {
+    LANGS.filter(lang => !!MENU_DATA[lang]).forEach(lang => {
       const opt = document.createElement('option');
       opt.value = lang;
       opt.textContent = LANG_LABELS[lang] || lang.toUpperCase();
