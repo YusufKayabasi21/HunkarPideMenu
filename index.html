@@ -46,95 +46,154 @@
     border-bottom: 1px solid var(--border);
   }
   .lang-switcher {
-    background: var(--primary);
-    padding: 12px 16px;
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     scroll-behavior: smooth;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1);
   }
   .lang-select-wrapper {
     position: relative;
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
   }
   .lang-select {
     width: 100%;
-    background: rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.4);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(212, 175, 55, 0.5);
     color: white;
     font-family: inherit;
     font-size: 15px;
     font-weight: 600;
-    padding: 10px 40px 10px 16px;
-    border-radius: 14px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 30px;
     cursor: pointer;
     appearance: none;
     -webkit-appearance: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
   .lang-select:focus {
-    background: rgba(255,255,255,0.3);
-    border-color: white;
-    box-shadow: 0 0 0 4px rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: #D4AF37;
+    box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.2);
   }
   .lang-select-wrapper::after {
-    content: '▼';
-    font-size: 10px;
+    content: '';
     position: absolute;
-    right: 16px;
+    right: 18px;
     top: 50%;
     transform: translateY(-50%);
-    color: white;
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
     pointer-events: none;
     transition: transform 0.3s ease;
   }
   html[dir="rtl"] .lang-select {
-    padding: 10px 16px 10px 40px;
+    padding: 12px 20px 12px 40px;
   }
   html[dir="rtl"] .lang-select-wrapper::after {
     right: auto;
-    left: 16px;
+    left: 18px;
   }
   .lang-select option {
     background-color: white;
     color: #2C3E3D;
-    font-weight: 400;
+    font-weight: 500;
   }
   .brand-header {
     text-align: center;
-    padding: 32px 20px;
-    background: linear-gradient(135deg, var(--card-bg) 0%, var(--bg) 100%);
+    padding: 36px 20px 24px;
+    background: radial-gradient(circle at center, #fdfbf7 0%, #ffffff 100%);
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .brand-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 70%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.4;
     transition: all 0.3s ease;
   }
   .header.collapsed .brand-header {
-    padding: 10px 20px;
+    padding: 12px 20px 10px;
   }
+  .header.collapsed .brand-header::after {
+    opacity: 0;
+  }
+  
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.92); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  @keyframes slideUpFade {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
   .logo-img {
-    max-height: 80px;
+    max-height: 85px;
     width: auto;
     margin-bottom: 16px;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08), 0 2px 8px rgba(212, 175, 55, 0.15);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: scaleIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
   .header.collapsed .logo-img {
     max-height: 40px;
     margin-bottom: 8px;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
   .restaurant-name {
     font-size: 24px;
     font-weight: 700;
     color: var(--primary-dark);
-    letter-spacing: -0.5px;
-    transition: all 0.3s ease;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 18px;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: slideUpFade 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .restaurant-name::after {
+    content: '— GELENEKSEL LEZZET —';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--accent);
+    font-weight: 600;
+    opacity: 0.9;
   }
   .header.collapsed .restaurant-name {
     font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 0;
+  }
+  .header.collapsed .restaurant-name::after {
+    display: none;
   }
   /* Menu Layout */
   .menu-content {
@@ -184,6 +243,11 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+  }
+  
+  .menu-item.recommended {
+    border: 2px solid var(--accent);
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.15);
   }
   
   .menu-item:active {
@@ -438,7 +502,8 @@
         const trItemName = MENU_DATA['tr'].sections[idx].items[itemIdx].name;
         const imgSrc = IMAGES[trItemName];
         const itemEl = document.createElement('div');
-        itemEl.className = 'menu-item' + (imgSrc ? ' has-image' : '');
+        const isRecommended = (idx === 0);
+        itemEl.className = 'menu-item' + (imgSrc ? ' has-image' : '') + (isRecommended ? ' recommended' : '');
         if (imgSrc) {
           itemEl.onclick = () => openModal(imgSrc);
         }
