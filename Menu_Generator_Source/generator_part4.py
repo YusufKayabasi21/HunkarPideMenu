@@ -632,7 +632,7 @@ html_template = """<!DOCTYPE html>
 </div>
 <script>
   const MENU_DATA = {{MENU_DATA_JSON}};
-  const IMAGES = {{IMAGES_JSON}};
+  let IMAGES = {};
   const LANGS = ['tr', 'en', 'es', 'ar', 'zh', 'it', 'fr', 'ru', 'fa', 'bs', 'sq', 'de', 'bg', 'el', 'ro', 'az'];
   const LANG_LABELS = {
     'tr': 'Türkçe',
@@ -666,7 +666,12 @@ html_template = """<!DOCTYPE html>
     }
     
     renderLangSwitcher(activeLang);
-    renderMenu(activeLang);
+    // Fetch images.json then render
+    fetch('images.json')
+      .then(r => r.json())
+      .then(data => { Object.assign(IMAGES, data); })
+      .catch(() => {})
+      .finally(() => { renderMenu(activeLang); });
   }
   function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute('data-theme');
@@ -875,7 +880,6 @@ with open("generator_core.py", "w", encoding="utf-8") as f:
     f.write('html = ' + repr(html_template) + '\n')
     f.write('html = html.replace("{{LOGO_B64}}", logo_b64)\n')
     f.write('html = html.replace("{{MENU_DATA_JSON}}", json.dumps(MENU_DATA, ensure_ascii=False))\n')
-    f.write('html = html.replace("{{IMAGES_JSON}}", images_b64_json)\n')
     f.write('with open("index.html", "w", encoding="utf-8") as fout:\n')
     f.write('    fout.write(html)\n')
     f.write('print("index.html generated successfully")\n')
