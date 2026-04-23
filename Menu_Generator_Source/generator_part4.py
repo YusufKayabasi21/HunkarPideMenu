@@ -17,6 +17,15 @@ html_template = """<!DOCTYPE html>
     --accent: #D4AF37;
   }
   
+  [data-theme="dark"] {
+    --bg: #0F1210;
+    --card-bg: #1A1F1C;
+    --text: #E8F0EF;
+    --text-light: #A0B0AF;
+    --border: #26302B;
+    --primary: #3DAE48;
+  }
+  
   * {
     box-sizing: border-box;
     margin: 0;
@@ -47,14 +56,41 @@ html_template = """<!DOCTYPE html>
   }
   .lang-switcher {
     background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-    padding: 16px;
+    padding: 12px 16px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     scroll-behavior: smooth;
     box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1);
+    gap: 12px;
   }
+  .theme-toggle {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    flex-shrink: 0;
+  }
+  .theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+  }
+  .theme-toggle:active {
+    transform: scale(0.95);
+  }
+  .sun-icon { display: none; }
+  [data-theme="dark"] .moon-icon { display: none; }
+  [data-theme="dark"] .sun-icon { display: block; }
   .lang-select-wrapper {
     position: relative;
     width: 100%;
@@ -113,7 +149,7 @@ html_template = """<!DOCTYPE html>
   .brand-header {
     text-align: center;
     padding: 36px 20px 24px;
-    background: radial-gradient(circle at center, #fdfbf7 0%, #ffffff 100%);
+    background: radial-gradient(circle at center, var(--card-bg) 0%, var(--bg) 100%);
     position: relative;
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   }
@@ -151,17 +187,21 @@ html_template = """<!DOCTYPE html>
     background: #ffffff;
     border-radius: 16px;
     padding: 8px;
-    border: 1px solid rgba(212, 175, 55, 0.3);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08), 0 2px 8px rgba(212, 175, 55, 0.15);
+    border: 1px solid var(--accent);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08), 0 0 15px rgba(212, 175, 55, 0.4);
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     animation: scaleIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  [data-theme="dark"] .logo-img {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 20px rgba(212, 175, 55, 0.6);
+    background: #ffffff; /* Keep logo background white for contrast if it has no transparency */
   }
   .header.collapsed .logo-img {
     max-height: 40px;
     margin-bottom: 8px;
     padding: 4px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05), 0 0 8px rgba(212, 175, 55, 0.3);
   }
   
   .restaurant-name {
@@ -243,6 +283,9 @@ html_template = """<!DOCTYPE html>
     display: flex;
     flex-direction: column;
     gap: 8px;
+    position: relative;
+    overflow: hidden;
+    animation: fadeUpItem 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
   
   .menu-item.recommended {
@@ -252,7 +295,17 @@ html_template = """<!DOCTYPE html>
   
   .menu-item:active {
     transform: scale(0.98);
-    background: #F4F9F8;
+  }
+  .ripple-effect {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(212, 175, 55, 0.2);
+    transform: scale(0);
+    animation: rippleAnim 0.55s linear;
+    pointer-events: none;
+  }
+  @keyframes rippleAnim {
+    to { transform: scale(4); opacity: 0; }
   }
   .item-header {
     display: flex;
@@ -313,6 +366,30 @@ html_template = """<!DOCTYPE html>
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
   }
+  @keyframes fadeUpItem {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  /* Section Divider */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: -12px 0 28px;
+    color: var(--accent);
+    font-size: 13px;
+    letter-spacing: 5px;
+    opacity: 0.75;
+    user-select: none;
+  }
+  .section-divider::before,
+  .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.4;
+  }
   
   /* RTL Specific Fixes */
   html[dir="rtl"] .item-header { flex-direction: row; }
@@ -335,26 +412,95 @@ html_template = """<!DOCTYPE html>
     display: flex;
     opacity: 1;
   }
-  .modal-content {
+  .modal-card {
+    background: var(--card-bg);
     max-width: 90%;
-    max-height: 90%;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-    transform: scale(0.95);
-    transition: transform 0.3s ease;
+    width: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+    transform: translateY(40px) scale(0.96);
+    opacity: 0;
+    transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+    position: relative;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
   }
-  .modal.show .modal-content {
-    transform: scale(1);
+  .modal-card::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), #f5d76e, var(--accent));
+    flex-shrink: 0;
+  }
+  .modal.show .modal-card {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  .modal-image {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    display: block;
+    background: #000;
+  }
+  .modal-info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .modal-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0;
+  }
+  .modal-desc {
+    font-size: 15px;
+    color: var(--text-light);
+    line-height: 1.6;
+    margin: 0;
+  }
+  .modal-price {
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(212, 175, 55, 0.1);
+    padding: 8px 16px;
+    border-radius: 12px;
+    margin-top: 4px;
+    border: 1px solid rgba(212, 175, 55, 0.2);
   }
   .close-modal {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 16px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    z-index: 1001;
+    z-index: 10;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: background 0.2s ease;
+  }
+  .close-modal:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  html[dir="rtl"] .close-modal {
+    right: auto;
+    left: 16px;
   }
   
   .item-with-img {
@@ -373,20 +519,80 @@ html_template = """<!DOCTYPE html>
     flex-direction: column;
     gap: 8px;
   }
-  .item-thumbnail {
+  /* Shimmer skeleton */
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .img-wrapper {
     width: 80px;
     height: 80px;
-    object-fit: cover;
     border-radius: 8px;
-    border: 1px solid var(--border);
     flex-shrink: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, var(--border) 25%, rgba(212,175,55,0.07) 50%, var(--border) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s ease-in-out infinite;
   }
+  .img-wrapper.loaded {
+    animation: none;
+    background: none;
+  }
+  .item-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+  }
+  .img-wrapper.loaded .item-thumbnail {
+    opacity: 1;
+  }
+  /* Scroll-to-top */
+  .scroll-top-btn {
+    position: fixed;
+    bottom: 28px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #1a1200;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.45);
+    opacity: 0;
+    transform: translateY(16px);
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+    z-index: 500;
+  }
+  .scroll-top-btn.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+  }
+  .scroll-top-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(212, 175, 55, 0.65);
+  }
+  .scroll-top-btn:active { transform: scale(0.94); }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="header">
-    <div class="lang-switcher" id="langSwitcher"></div>
+    <div class="lang-switcher">
+      <div id="langSwitcher" style="flex: 1;"></div>
+      <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle Theme">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun-icon"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </div>
+    </div>
     <div class="brand-header">
       <img src="data:image/jpeg;base64,{{LOGO_B64}}" alt="Logo" class="logo-img">
       <h1 class="restaurant-name" id="restName"></h1>
@@ -410,9 +616,19 @@ html_template = """<!DOCTYPE html>
 
   </div>
 </div>
+<button class="scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
 <div id="imageModal" class="modal">
-  <span class="close-modal" id="closeModal">&times;</span>
-  <img class="modal-content" id="modalImg">
+  <div class="modal-card">
+    <span class="close-modal" id="closeModal">&times;</span>
+    <img class="modal-image" id="modalImg">
+    <div class="modal-info">
+      <h3 id="modalTitle" class="modal-title"></h3>
+      <div id="modalPrice" class="modal-price"></div>
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
 </div>
 <script>
   const MENU_DATA = {{MENU_DATA_JSON}};
@@ -440,8 +656,23 @@ html_template = """<!DOCTYPE html>
   function init() {
     const savedLang = localStorage.getItem('hunkar_lang') || 'tr';
     const activeLang = LANGS.includes(savedLang) ? savedLang : 'tr';
+    
+    // Theme logic
+    const savedTheme = localStorage.getItem('hunkar_theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    
     renderLangSwitcher(activeLang);
     renderMenu(activeLang);
+  }
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('hunkar_theme', newTheme);
   }
   function switchLang(lang) {
     if (!MENU_DATA[lang]) return;
@@ -498,19 +729,23 @@ html_template = """<!DOCTYPE html>
       const gridEl = document.createElement('div');
       gridEl.className = 'items-grid';
       
+      let itemCounter = 0;
       sec.items.forEach((item, itemIdx) => {
         const trItemName = MENU_DATA['tr'].sections[idx].items[itemIdx].name;
         const imgSrc = IMAGES[trItemName];
         const itemEl = document.createElement('div');
         const isRecommended = (idx === 0);
         itemEl.className = 'menu-item' + (imgSrc ? ' has-image' : '') + (isRecommended ? ' recommended' : '');
+        itemEl.style.animationDelay = `${(idx * 60 + itemCounter * 50)}ms`;
+        itemCounter++;
         if (imgSrc) {
-          itemEl.onclick = () => openModal(imgSrc);
+          itemEl.onclick = () => openModal(imgSrc, item.name, item.description, item.price);
+          itemEl.addEventListener('mousedown', createRipple);
         }
         
         let innerHtml = '';
         if (imgSrc) {
-          innerHtml += `<img src="${imgSrc}" class="item-thumbnail" alt="${item.name}">`;
+          innerHtml += `<div class="img-wrapper"><img src="${imgSrc}" class="item-thumbnail" alt="${item.name}" onload="this.parentElement.classList.add('loaded')"></div>`;
         }
         let textHtml = `<div class="item-text-content">
                           <div class="item-header">
@@ -535,13 +770,41 @@ html_template = """<!DOCTYPE html>
       
       secEl.appendChild(gridEl);
       content.appendChild(secEl);
+      
+      // Gold divider between sections
+      if (idx < data.sections.length - 1) {
+        const divider = document.createElement('div');
+        divider.className = 'section-divider';
+        divider.innerHTML = '<span>❖</span>';
+        content.appendChild(divider);
+      }
     });
   }
   const modal = document.getElementById('imageModal');
   const modalImg = document.getElementById('modalImg');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalDesc = document.getElementById('modalDesc');
+  const modalPrice = document.getElementById('modalPrice');
   const closeModalBtn = document.getElementById('closeModal');
-  function openModal(src) {
+  
+  function openModal(src, title, desc, price) {
     modalImg.src = src;
+    modalTitle.textContent = title;
+    
+    if (desc) {
+      modalDesc.textContent = desc;
+      modalDesc.style.display = 'block';
+    } else {
+      modalDesc.style.display = 'none';
+    }
+    
+    if (price) {
+      modalPrice.textContent = price;
+      modalPrice.style.display = 'inline-block';
+    } else {
+      modalPrice.style.display = 'none';
+    }
+    
     modal.classList.add('show');
   }
   function closeModal() {
@@ -553,14 +816,35 @@ html_template = """<!DOCTYPE html>
     if (e.target === modal) closeModal();
   };
 
+  function createRipple(e) {
+    const item = e.currentTarget;
+    const circle = document.createElement('span');
+    const diameter = Math.max(item.clientWidth, item.clientHeight);
+    const rect = item.getBoundingClientRect();
+    circle.className = 'ripple-effect';
+    circle.style.cssText = `width:${diameter}px;height:${diameter}px;left:${e.clientX - rect.left - diameter/2}px;top:${e.clientY - rect.top - diameter/2}px;`;
+    const old = item.querySelector('.ripple-effect');
+    if (old) old.remove();
+    item.appendChild(circle);
+    setTimeout(() => circle.remove(), 600);
+  }
+
+  // Scroll: header collapse with hysteresis + scroll-to-top btn
+  let headerCollapsed = false;
   window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
-    if (window.scrollY > 50) {
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    const y = window.scrollY;
+    // Hysteresis: collapse at 90px, uncollapse at 20px
+    if (!headerCollapsed && y > 90) {
+      headerCollapsed = true;
       header.classList.add('collapsed');
-    } else {
+    } else if (headerCollapsed && y < 20) {
+      headerCollapsed = false;
       header.classList.remove('collapsed');
     }
-  });
+    if (scrollBtn) scrollBtn.classList.toggle('visible', y > 300);
+  }, { passive: true });
 
   document.addEventListener('DOMContentLoaded', init);
 </script>
