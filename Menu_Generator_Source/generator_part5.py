@@ -1,174 +1,174 @@
 MENU_DATA = {
   "fa": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "┘¥█îÏ┤┘å┘çÏğÏ» Ï│Ï▒ÏóÏ┤┘¥Ï▓",
+        "title": "پیشنهاد سرآشپز",
         "items": [
           {
-            "name": "┘¥█îÏ»┘ç Ï»Ï▒█îÏğ█î Ï│█îÏğ┘ç Ï¿┘ç Ï┤┌®┘ä Ï¿┘ä┘êÏÀ",
-            "description": "Ï«┘à█îÏ▒ ┘åÏğÏ▓┌® ┘ê Ï¬Ï▒Ï»Ïî ┌»┘êÏ┤Ï¬ ┌»Ïğ┘ê Ï¿Ï▒█îÏğ┘å Ï┤Ï»┘ç ÏğÏÁ█î┘ä Ï▒█îÏ▓┘çÏî ┌®Ï▒┘çÏî Ï┤┌®┘ä Ï¿┘ä┘êÏÀÏî ┘¥█îÏ┤┘å┘çÏğÏ» Ï│Ï▒ÏóÏ┤┘¥Ï▓",
-            "price": "450 Ôé║"
+            "name": "پیده دریای سیاه به شکل بلوط",
+            "description": "خمیر نازک و ترد، گوشت گاو بریان شده اصیل ریزه، کره، شکل بلوط، پیشنهاد سرآشپز",
+            "price": "450 ₺"
           }
         ]
       },
       {
-        "title": "┘¥█îÏ»┘ç Ï»Ï▒█îÏğ█î Ï│█îÏğ┘ç",
+        "title": "پیده دریای سیاه",
         "items": [
           {
-            "name": "┘¥█îÏ»┘ç ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç",
-            "description": "┘àÏ«┘ä┘êÏÀ ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ┘ê█î┌İ┘ç Ï¿┘ç Ï│Ï¿┌® 'H├╝nkar' (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "300 Ôé║"
+            "name": "پیده گوشت چرخ کرده",
+            "description": "مخلوط گوشت چرخ کرده ویژه به سبک 'Hünkar' (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "300 ₺"
           },
           {
-            "name": "┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ┘ê Ï│Ï¿Ï▓█îÏ¼ÏğÏ¬",
-            "description": "┘àÏ«┘ä┘êÏÀ ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ┘ê█î┌İ┘ç Ï¿┘ç Ï│Ï¿┌® 'H├╝nkar'Ïî ┌»┘êÏ¼┘ç ┘üÏ▒┘å┌»█î Ï¬ÏğÏ▓┘çÏî ┘ü┘ä┘ü┘ä Ï│Ï¿Ï▓ Ï¬Ï▒Ï» (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "300 Ôé║"
+            "name": "گوشت چرخ کرده و سبزیجات",
+            "description": "مخلوط گوشت چرخ کرده ویژه به سبک 'Hünkar'، گوجه فرنگی تازه، فلفل سبز ترد (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "300 ₺"
           },
           {
-            "name": "┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ┘ê ┘¥┘å█îÏ▒",
-            "description": "┘àÏ«┘ä┘êÏÀ ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ┘ê█î┌İ┘ç Ï¿┘ç Ï│Ï¿┌® 'H├╝nkar'Ïî ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┌®ÏğÏ┤ÏğÏ▒ (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "300 Ôé║"
+            "name": "گوشت چرخ کرده و پنیر",
+            "description": "مخلوط گوشت چرخ کرده ویژه به سبک 'Hünkar'، پنیر ذوب شده دست‌ساز کاشار (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "300 ₺"
           },
           {
-            "name": "┘¥█îÏ»┘ç ┘àÏ«┘ä┘êÏÀ ┘ê█î┌İ┘ç",
-            "description": "┘àÏ«┘ä┘êÏÀ ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ┘ê█î┌İ┘ç Ï¿┘ç Ï│Ï¿┌® 'H├╝nkar'Ïî ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç ┌®ÏğÏ┤ÏğÏ▒Ïî ┌»┘êÏ¼┘ç ┘üÏ▒┘å┌»█î Ï¬ÏğÏ▓┘çÏî ┘ü┘ä┘ü┘ä Ï│Ï¿Ï▓ Ï¬Ï▒Ï» (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "300 Ôé║"
+            "name": "پیده مخلوط ویژه",
+            "description": "مخلوط گوشت چرخ کرده ویژه به سبک 'Hünkar'، پنیر ذوب شده کاشار، گوجه فرنگی تازه، فلفل سبز ترد (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "300 ₺"
           },
           {
-            "name": "┘¥█îÏ»┘ç Ï¿Ïğ ┌»┘êÏ┤Ï¬ Ï¿Ï▒█îÏğ┘å",
-            "description": "┌»┘êÏ┤Ï¬ ┌»Ïğ┘ê Ï¿Ï▒█îÏğ┘å Ï┤Ï»┘ç Ï¿Ï│█îÏğÏ▒ ┘àÏ▒Ï║┘êÏ¿ Ï▒█îÏ▓┘ç (Kavurma) (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "450 Ôé║"
+            "name": "پیده با گوشت بریان",
+            "description": "گوشت گاو بریان شده بسیار مرغوب ریزه (Kavurma) (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "450 ₺"
           },
           {
-            "name": "┌»┘êÏ┤Ï¬ Ï¿Ï▒█îÏğ┘å ┘ê ┘¥┘å█îÏ▒",
-            "description": "┌»┘êÏ┤Ï¬ ┌»Ïğ┘ê Ï¿Ï▒█îÏğ┘å Ï┤Ï»┘ç Ï¿Ï│█îÏğÏ▒ ┘àÏ▒Ï║┘êÏ¿ Ï▒█îÏ▓┘ç (Kavurma)Ïî ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┌®ÏğÏ┤ÏğÏ▒ (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "425 Ôé║"
+            "name": "گوشت بریان و پنیر",
+            "description": "گوشت گاو بریان شده بسیار مرغوب ریزه (Kavurma)، پنیر ذوب شده دست‌ساز کاشار (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "425 ₺"
           },
           {
-            "name": "┌»┘êÏ┤Ï¬ Ï¿Ï▒█îÏğ┘å ┘ê Ï│Ï¿Ï▓█îÏ¼ÏğÏ¬",
-            "description": "┌»┘êÏ┤Ï¬ ┌»Ïğ┘ê Ï¿Ï▒█îÏğ┘å Ï┤Ï»┘ç Ï¿Ï│█îÏğÏ▒ ┘àÏ▒Ï║┘êÏ¿ Ï▒█îÏ▓┘ç (Kavurma)Ïî ┌»┘êÏ¼┘ç ┘üÏ▒┘å┌»█î Ï¬ÏğÏ▓┘çÏî ┘ü┘ä┘ü┘ä Ï│Ï¿Ï▓ Ï¬Ï▒Ï» (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "450 Ôé║"
+            "name": "گوشت بریان و سبزیجات",
+            "description": "گوشت گاو بریان شده بسیار مرغوب ریزه (Kavurma)، گوجه فرنگی تازه، فلفل سبز ترد (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "450 ₺"
           },
           {
-            "name": "┘àÏ«┘ä┘êÏÀ ┌»┘êÏ┤Ï¬ Ï¿Ï▒█îÏğ┘å ┘ê Ï│Ï¿Ï▓█îÏ¼ÏğÏ¬ Ï¿Ïğ ┘¥┘å█îÏ▒ Ï»Ï▒ Ï░┘êÏ¿",
-            "description": "┌»┘êÏ┤Ï¬ ┌»Ïğ┘ê Ï¿Ï▒█îÏğ┘å Ï┤Ï»┘ç Ï¿Ï│█îÏğÏ▒ ┘àÏ▒Ï║┘êÏ¿ Ï▒█îÏ▓┘ç (Kavurma)Ïî ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç ┌®ÏğÏ┤ÏğÏ▒Ïî ┌»┘êÏ¼┘ç ┘üÏ▒┘å┌»█î Ï¬ÏğÏ▓┘çÏî ┘ü┘ä┘ü┘ä Ï│Ï¿Ï▓ Ï¬Ï▒Ï» (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "425 Ôé║"
+            "name": "مخلوط گوشت بریان و سبزیجات با پنیر در ذوب",
+            "description": "گوشت گاو بریان شده بسیار مرغوب ریزه (Kavurma)، پنیر ذوب شده کاشار، گوجه فرنگی تازه، فلفل سبز ترد (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "425 ₺"
           },
           {
-            "name": "┘¥█îÏ»┘ç ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç",
-            "description": "┘¥┘å█îÏ▒ Ï¿Ï│█îÏğÏ▒ ┘àÏ▒Ï║┘êÏ¿ Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┘ê Ï░┘êÏ¿ Ï┤Ï»┘ç ┌®ÏğÏ┤ÏğÏ▒ (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "260 Ôé║"
+            "name": "پیده پنیر ذوب شده",
+            "description": "پنیر بسیار مرغوب دست‌ساز و ذوب شده کاشار (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "260 ₺"
           },
           {
-            "name": "┘¥┘å█îÏ▒ ┘ê Ï¬Ï«┘à ┘àÏ▒Ï║ ┘àÏ▓Ï▒Ï╣┘ç",
-            "description": "┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┌®ÏğÏ┤ÏğÏ▒Ïî Ï¬Ï«┘à ┘àÏ▒Ï║ Ï¬ÏğÏ▓┘ç ┘àÏ▓Ï▒Ï╣┘ç (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "270 Ôé║"
+            "name": "پنیر و تخم مرغ مزرعه",
+            "description": "پنیر ذوب شده دست‌ساز کاشار، تخم مرغ تازه مزرعه (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "270 ₺"
           },
           {
-            "name": "┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç ┘ê Ï│Ï¿Ï▓█îÏ¼ÏğÏ¬",
-            "description": "┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┌®ÏğÏ┤ÏğÏ▒Ïî ┌»┘êÏ¼┘ç ┘üÏ▒┘å┌»█î Ï¬ÏğÏ▓┘çÏî ┘ü┘ä┘ü┘ä Ï│Ï¿Ï▓ Ï¬Ï▒Ï» (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "260 Ôé║"
+            "name": "پنیر ذوب شده و سبزیجات",
+            "description": "پنیر ذوب شده دست‌ساز کاشار، گوجه فرنگی تازه، فلفل سبز ترد (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "260 ₺"
           },
           {
-            "name": "Ï│┘êÏ│█îÏ│ Ï¬┘åÏ» ┌»Ïğ┘ê ┘ê ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç",
-            "description": "Ï│┘êÏ│█îÏ│ ┌»┘êÏ┤Ï¬ ┌»Ïğ┘ê Ï¬Ï▒┌®█î Ï¬┘åÏ» (Sucuk)Ïî ┘¥┘å█îÏ▒ Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┌®ÏğÏ┤ÏğÏ▒ (Ï¬Ï«┘à ┘àÏ▒Ï║ ÏğÏÂÏğ┘ü█î █▒█░ ┘ä█îÏ▒)",
-            "price": "300 Ôé║"
+            "name": "سوسیس تند گاو و پنیر ذوب شده",
+            "description": "سوسیس گوشت گاو ترکی تند (Sucuk)، پنیر ذوب شده دست‌ساز کاشار (تخم مرغ اضافی ۱۰ لیر)",
+            "price": "300 ₺"
           }
         ]
       },
       {
-        "title": "┘¥█îÏ»┘ç ┘ê Ï¿┘êÏ▒┌®",
+        "title": "پیده و بورک",
         "items": [
           {
-            "name": "┌®█îÏ▒ ┘¥█îÏ»┘ç Ï│┘åÏ¬█î",
-            "description": "Ï«┘à█îÏ▒ Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓ ┘åÏ▒┘à Ï¿Ïğ Ïğ┘åÏ¬Ï«ÏğÏ¿ ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘ç ÏÀÏ╣┘àÔÇîÏ»ÏğÏ▒Ïî ┘¥┘å█îÏ▒ █îÏğ Ï│█îÏ¿ Ï▓┘à█î┘å█î ÏÀÏ╣┘àÔÇîÏ»ÏğÏ▒",
-            "price": "60 Ôé║"
+            "name": "کیر پیده سنتی",
+            "description": "خمیر دست‌ساز نرم با انتخاب گوشت چرخ کرده طعم‌دار، پنیر یا سیب زمینی طعم‌دار",
+            "price": "60 ₺"
           },
           {
-            "name": "Ï┤█îÏ▒█î┘å█î ┘ä┘ê┘ä┘çÔÇîÏğ█î (Ï▒┘ê┘ä)",
-            "description": "┘äÏğ█î┘çÔÇî┘çÏğ█î Ï«┘à█îÏ▒ Ï¬Ï▒Ï» Ï▒┘ê┘ä Ï┤Ï»┘ç Ï¿Ïğ Ï»Ï│Ï¬ Ï¿Ïğ ┌»┘êÏ┤Ï¬ ┌åÏ▒Ï« ┌®Ï▒Ï»┘çÏî ┘¥┘å█îÏ▒ Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓Ïî Ï│█îÏ¿ Ï▓┘à█î┘å█îÏî ÏğÏ│┘ü┘åÏğÏ¼ █îÏğ ÏğÏ▒Ï»┘ç",
-            "price": "140 Ôé║"
+            "name": "شیرینی لوله‌ای (رول)",
+            "description": "لایه‌های خمیر ترد رول شده با دست با گوشت چرخ کرده، پنیر دست‌ساز، سیب زمینی، اسفناج یا ارده",
+            "price": "140 ₺"
           },
           {
-            "name": "Ï┤█îÏ▒█î┘å█î ┘äÏğ█î┘çÔÇîÏğ█î Ï¿┘ç Ï│Ï¿┌® Ï╣Ï½┘àÏğ┘å█î",
-            "description": "┘äÏğ█î┘çÔÇî┘çÏğ█î Ï«┘à█îÏ▒ Ï¼┘êÏ┤█îÏ»┘ç Ï┤Ï»┘ç Ï¿Ïğ Ï»Ï│Ï¬Ïî ┌®Ï▒┘ç Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï▒Ï¼┘ç █î┌®Ïî ┘¥┘å█îÏ▒ Ï│┘ü█îÏ» Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓",
-            "price": "140 Ôé║"
+            "name": "شیرینی لایه‌ای به سبک عثمانی",
+            "description": "لایه‌های خمیر جوشیده شده با دست، کره ذوب شده درجه یک، پنیر سفید دست‌ساز",
+            "price": "140 ₺"
           },
           {
-            "name": "Ï┤█îÏ▒█î┘å█î ┌®Ï▒┘çÔÇîÏğ█î ┘êÏ▒┘é┘çÔÇîÏğ█î",
-            "description": "┘äÏğ█î┘çÔÇî┘çÏğ█î Ï«┘à█îÏ▒ Ï¬Ï▒Ï» Ï▒┘ê┘ä Ï┤Ï»┘ç Ï¿Ïğ Ï»Ï│Ï¬Ïî ┌®Ï▒┘ç Ï░┘êÏ¿ Ï┤Ï»┘ç Ï»Ï▒Ï¼┘ç █î┌®. Ï¿┘ç ÏÀ┘êÏ▒ Ï│┘åÏ¬█î Ï¿Ïğ ┘à┘éÏ»ÏğÏ▒ Ï▓█îÏğÏ»█î ┘¥┘êÏ»Ï▒ ┘é┘åÏ» ┘äÏ░Ï¬ Ï¿Ï«Ï┤ ÏğÏ│Ï¬.",
-            "price": "120 Ôé║"
+            "name": "شیرینی کره‌ای ورقه‌ای",
+            "description": "لایه‌های خمیر ترد رول شده با دست، کره ذوب شده درجه یک. به طور سنتی با مقدار زیادی پودر قند لذت بخش است.",
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "┘å┘êÏ┤█îÏ»┘å█îÔÇî┘çÏğ",
+        "title": "نوشیدنی‌ها",
         "items": [
           {
-            "name": "┘å┘êÏ┤ÏğÏ¿┘ç ┌®Ïğ┘ê┘äÏğ",
+            "name": "نوشابه کاولا",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
-            "name": "┘å┘êÏ┤ÏğÏ¿┘ç ┌»ÏğÏ▓Ï»ÏğÏ▒ Ï¬Ï▒┌®█î",
-            "description": "┌®┘äÏğÏ│█î┌®/┘¥Ï▒Ï¬┘éÏğ┘ä█î",
-            "price": "50 Ôé║"
+            "name": "نوشابه گازدار ترکی",
+            "description": "کلاسیک/پرتقالی",
+            "price": "50 ₺"
           },
           {
-            "name": "ÏóÏ¿┘à█î┘ê┘ç",
-            "description": "┘ç┘ä┘ê/Ïó┘äÏ¿Ïğ┘ä┘ê/┘àÏ«┘ä┘êÏÀ ┘à█î┘ê┘çÔÇî┘çÏğ",
-            "price": "60 Ôé║"
+            "name": "آبمیوه",
+            "description": "هلو/آلبالو/مخلوط میوه‌ها",
+            "price": "60 ₺"
           },
           {
-            "name": "┌åÏğ█î Ï│Ï▒Ï»",
-            "description": "┘ä█î┘à┘ê/┘ç┘ä┘ê",
-            "price": "60 Ôé║"
+            "name": "چای سرد",
+            "description": "لیمو/هلو",
+            "price": "60 ₺"
           },
           {
-            "name": "Ï»┘êÏ║ (Ïó█îÏ▒Ïğ┘å)",
+            "name": "دوغ (آیران)",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
-            "name": "ÏóÏ¿ ┘àÏ╣Ï»┘å█î",
+            "name": "آب معدنی",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
-            "name": "ÏóÏ¿",
+            "name": "آب",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
-            "name": "┌åÏğ█î ÏğÏÁ█î┘ä Ï»Ï▒█îÏğ█î Ï│█îÏğ┘ç",
+            "name": "چای اصیل دریای سیاه",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "┘ä█î┘à┘ê┘åÏğÏ» Ï»Ï│Ï¬ÔÇîÏ│ÏğÏ▓",
+            "name": "لیموناد دست‌ساز",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
-            "name": "┘é┘ç┘ê┘ç Ï¬Ï▒┌®",
+            "name": "قهوه ترک",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "bs": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "┼áefova preporuka",
+        "title": "Šefova preporuka",
         "items": [
           {
-            "name": "Crnomorski pide u obliku ┼¥ira",
-            "description": "Tanko hrskavo tijesto, autenti─ına Rize kavurma, puter, oblik ┼¥ira, preporuka ┼íefa",
-            "price": "450 Ôé║"
+            "name": "Crnomorski pide u obliku žira",
+            "description": "Tanko hrskavo tijesto, autentična Rize kavurma, puter, oblik žira, preporuka šefa",
+            "price": "450 ₺"
           }
         ]
       },
@@ -177,63 +177,63 @@ MENU_DATA = {
         "items": [
           {
             "name": "Pide sa mljevenim mesom",
-            "description": "Specijalni fil od mljevenog mesa na H├╝nkar na─ıin (Ekstra jaje 10 TL)",
-            "price": "300 Ôé║"
+            "description": "Specijalni fil od mljevenog mesa na Hünkar način (Ekstra jaje 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Mljeveno meso i povr─çe",
-            "description": "Specijalni fil od mljevenog mesa na H├╝nkar na─ıin, svje┼¥i paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Mljeveno meso i povrće",
+            "description": "Specijalni fil od mljevenog mesa na Hünkar način, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
+            "price": "300 ₺"
           },
           {
             "name": "Mljeveno meso i artisan sir",
-            "description": "Specijalni fil od mljevenog mesa na H├╝nkar na─ıin, otopljeni artisan Ka┼íar sir (Ekstra jaje 10 TL)",
-            "price": "300 Ôé║"
+            "description": "Specijalni fil od mljevenog mesa na Hünkar način, otopljeni artisan Kašar sir (Ekstra jaje 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Vrhunski mije┼íani pide",
-            "description": "Specijalni fil od mljevenog mesa na H├╝nkar na─ıin, otopljeni Ka┼íar sir, svje┼¥i paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Vrhunski miješani pide",
+            "description": "Specijalni fil od mljevenog mesa na Hünkar način, otopljeni Kašar sir, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Pide sa pe─ıenom govedinom",
-            "description": "Vrhunska sporo pe─ıena Rize govedina (Kavurma) (Ekstra jaje 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Pide sa pečenom govedinom",
+            "description": "Vrhunska sporo pečena Rize govedina (Kavurma) (Ekstra jaje 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Pe─ıena govedina i artisan sir",
-            "description": "Vrhunska sporo pe─ıena Rize govedina (Kavurma), otopljeni artisan Ka┼íar sir (Ekstra jaje 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Pečena govedina i artisan sir",
+            "description": "Vrhunska sporo pečena Rize govedina (Kavurma), otopljeni artisan Kašar sir (Ekstra jaje 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "Pe─ıena govedina i povr─çe",
-            "description": "Vrhunska sporo pe─ıena Rize govedina (Kavurma), svje┼¥i paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Pečena govedina i povrće",
+            "description": "Vrhunska sporo pečena Rize govedina (Kavurma), svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Mije┼íana govedina, povr─çe i sir",
-            "description": "Vrhunska sporo pe─ıena Rize govedina (Kavurma), otopljeni Ka┼íar sir, svje┼¥i paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Miješana govedina, povrće i sir",
+            "description": "Vrhunska sporo pečena Rize govedina (Kavurma), otopljeni Kašar sir, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
+            "price": "425 ₺"
           },
           {
             "name": "Pide sa otopljenim artisan sirom",
-            "description": "Otopljeni vrhunski artisan Ka┼íar sir (Ekstra jaje 10 TL)",
-            "price": "260 Ôé║"
+            "description": "Otopljeni vrhunski artisan Kašar sir (Ekstra jaje 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "Artisan sir i svje┼¥e jaje",
-            "description": "Otopljeni artisan Ka┼íar sir, doma─çe svje┼¥e jaje (Ekstra jaje 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Artisan sir i svježe jaje",
+            "description": "Otopljeni artisan Kašar sir, domaće svježe jaje (Ekstra jaje 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "Otopljeni sir i povr─çe",
-            "description": "Otopljeni artisan Ka┼íar sir, svje┼¥i paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Otopljeni sir i povrće",
+            "description": "Otopljeni artisan Kašar sir, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "Za─ıinjena gove─æa kobasica i sir",
-            "description": "Za─ıinjena turska gove─æa kobasica (Sucuk), otopljeni artisan Ka┼íar sir (Ekstra jaje 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Začinjena goveđa kobasica i sir",
+            "description": "Začinjena turska goveđa kobasica (Sucuk), otopljeni artisan Kašar sir (Ekstra jaje 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
@@ -241,159 +241,159 @@ MENU_DATA = {
         "title": "Pide & Pita",
         "items": [
           {
-            "name": "Tradicionalni K─▒r pide",
-            "description": "Meko artisan tijesto sa izborom za─ıinjenog mljevenog mesa, sira ili krompira",
-            "price": "60 Ôé║"
+            "name": "Tradicionalni Kır pide",
+            "description": "Meko artisan tijesto sa izborom začinjenog mljevenog mesa, sira ili krompira",
+            "price": "60 ₺"
           },
           {
-            "name": "Rolovana pita (Kol b├Âre─şi)",
-            "description": "Ru─ıno ra─æeno hrskavo tijesto sa mljevenim mesom, artisan sirom, krompirom, ┼ípinatom ili tahinijem",
-            "price": "140 Ôé║"
+            "name": "Rolovana pita (Kol böreği)",
+            "description": "Ručno rađeno hrskavo tijesto sa mljevenim mesom, artisan sirom, krompirom, špinatom ili tahinijem",
+            "price": "140 ₺"
           },
           {
             "name": "Slojevita pita u osmanskom stilu",
-            "description": "Ru─ıno razvijeno kuhano tijesto (Su b├Âre─şi), vrhunski puter, artisan bijeli sir",
-            "price": "140 Ôé║"
+            "description": "Ručno razvijeno kuhano tijesto (Su böreği), vrhunski puter, artisan bijeli sir",
+            "price": "140 ₺"
           },
           {
             "name": "Prhka pita sa puterom",
-            "description": "Ru─ıno ra─æeno hrskavo tijesto, vrhunski puter. Tradicionalno se slu┼¥i sa ┼íe─çerom u prahu.",
-            "price": "120 Ôé║"
+            "description": "Ručno rađeno hrskavo tijesto, vrhunski puter. Tradicionalno se služi sa šećerom u prahu.",
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "Pi─ça",
+        "title": "Pića",
         "items": [
           {
             "name": "Cola",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
             "name": "Gazirani sok",
-            "description": "Klasi─ıni/Narand┼¥a",
-            "price": "50 Ôé║"
+            "description": "Klasični/Narandža",
+            "price": "50 ₺"
           },
           {
-            "name": "Vo─çni sok",
-            "description": "Breskva/Vi┼ínja/Mije┼íano",
-            "price": "60 Ôé║"
+            "name": "Voćni sok",
+            "description": "Breskva/Višnja/Miješano",
+            "price": "60 ₺"
           },
           {
-            "name": "Ledeni ─ıaj",
+            "name": "Ledeni čaj",
             "description": "Limun/Breskva",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
             "name": "Ayran",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
             "name": "Mineralna voda",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
             "name": "Voda",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
-            "name": "Autenti─ıni ─ıaj",
+            "name": "Autentični čaj",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "Doma─ça limunada",
+            "name": "Domaća limunada",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
             "name": "Turska kafa",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "sq": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
         "title": "Sugjerimi i shefit",
         "items": [
           {
-            "name": "Pide e Detit t├½ Zi n├½ form├½ lisi",
-            "description": "Brum├½ i holl├½ krokant, kavurm├½ autentike Rize, gjalp├½, n├½ form├½ lisi, sugjerimi i shefit",
-            "price": "450 Ôé║"
+            "name": "Pide e Detit të Zi në formë lisi",
+            "description": "Brumë i hollë krokant, kavurmë autentike Rize, gjalpë, në formë lisi, sugjerimi i shefit",
+            "price": "450 ₺"
           }
         ]
       },
       {
-        "title": "Pide e Detit t├½ Zi",
+        "title": "Pide e Detit të Zi",
         "items": [
           {
-            "name": "Pide me mish t├½ grir├½",
-            "description": "Mbushje speciale me mish t├½ grir├½ sipas m├½nyr├½s H├╝nkar (Vez├½ ekstra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Pide me mish të grirë",
+            "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar (Vezë ekstra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Mish i grir├½ dhe perime",
-            "description": "Mbushje speciale me mish t├½ grir├½ sipas m├½nyr├½s H├╝nkar, domate t├½ fresk├½ta, spec i gjelb├½r krokant (Vez├½ ekstra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Mish i grirë dhe perime",
+            "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Mish i grir├½ dhe djath├½ artizanal",
-            "description": "Mbushje speciale me mish t├½ grir├½ sipas m├½nyr├½s H├╝nkar, djath├½ ka├ğkavall artizanal i shkrir├½ (Vez├½ ekstra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Mish i grirë dhe djathë artizanal",
+            "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar, djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Pide e p├½rzier supreme",
-            "description": "Mbushje speciale me mish t├½ grir├½ sipas m├½nyr├½s H├╝nkar, djath├½ ka├ğkavall i shkrir├½, domate t├½ fresk├½ta, spec i gjelb├½r krokant (Vez├½ ekstra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Pide e përzier supreme",
+            "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar, djathë kaçkavall i shkrirë, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Pide me mish vi├ği t├½ pjekur",
-            "description": "Mish vi├ği Rize i pjekur ngadal├½ (Kavurma) (Vez├½ ekstra 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Pide me mish viçi të pjekur",
+            "description": "Mish viçi Rize i pjekur ngadalë (Kavurma) (Vezë ekstra 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Mish i pjekur dhe djath├½ artizanal",
-            "description": "Mish vi├ği Rize i pjekur ngadal├½ (Kavurma), djath├½ ka├ğkavall artizanal i shkrir├½ (Vez├½ ekstra 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Mish i pjekur dhe djathë artizanal",
+            "description": "Mish viçi Rize i pjekur ngadalë (Kavurma), djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)",
+            "price": "425 ₺"
           },
           {
             "name": "Mish i pjekur dhe perime",
-            "description": "Mish vi├ği Rize i pjekur ngadal├½ (Kavurma), domate t├½ fresk├½ta, spec i gjelb├½r krokant (Vez├½ ekstra 10 TL)",
-            "price": "450 Ôé║"
+            "description": "Mish viçi Rize i pjekur ngadalë (Kavurma), domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Mish i pjekur, perime dhe djath├½",
-            "description": "Mish vi├ği Rize i pjekur ngadal├½ (Kavurma), djath├½ ka├ğkavall i shkrir├½, domate t├½ fresk├½ta, spec i gjelb├½r krokant (Vez├½ ekstra 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Mish i pjekur, perime dhe djathë",
+            "description": "Mish viçi Rize i pjekur ngadalë (Kavurma), djathë kaçkavall i shkrirë, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "Pide me djath├½ artizanal t├½ shkrir├½",
-            "description": "Djath├½ ka├ğkavall artizanal i shkrir├½ (Vez├½ ekstra 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Pide me djathë artizanal të shkrirë",
+            "description": "Djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "Djath├½ artizanal dhe vez├½ fshati",
-            "description": "Djath├½ ka├ğkavall artizanal i shkrir├½, vez├½ fshati e fresk├½t (Vez├½ ekstra 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Djathë artizanal dhe vezë fshati",
+            "description": "Djathë kaçkavall artizanal i shkrirë, vezë fshati e freskët (Vezë ekstra 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "Djath├½ i shkrir├½ dhe perime",
-            "description": "Djath├½ ka├ğkavall artizanal i shkrir├½, domate t├½ fresk├½ta, spec i gjelb├½r krokant (Vez├½ ekstra 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Djathë i shkrirë dhe perime",
+            "description": "Djathë kaçkavall artizanal i shkrirë, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "Salsi├ğe vi├ği me er├½za dhe djath├½",
-            "description": "Salsi├ğe vi├ği turke me er├½za (Sucuk), djath├½ ka├ğkavall artizanal i shkrir├½ (Vez├½ ekstra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Salsiçe viçi me erëza dhe djathë",
+            "description": "Salsiçe viçi turke me erëza (Sucuk), djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
@@ -401,24 +401,24 @@ MENU_DATA = {
         "title": "Pide & Byrek",
         "items": [
           {
-            "name": "Pide K─▒r tradicionale",
-            "description": "Brum├½ artizanal i but├½ me zgjedhjen tuaj t├½ mishit t├½ grir├½, djathit ose patateve",
-            "price": "60 Ôé║"
+            "name": "Pide Kır tradicionale",
+            "description": "Brumë artizanal i butë me zgjedhjen tuaj të mishit të grirë, djathit ose patateve",
+            "price": "60 ₺"
           },
           {
-            "name": "Byrek i rrotulluar (Kol b├Âre─şi)",
-            "description": "Shtresa brumi krokant t├½ rrotulluara me dor├½ me mish t├½ grir├½, djath├½ artizanal, patate, spinaq ose tahini",
-            "price": "140 Ôé║"
+            "name": "Byrek i rrotulluar (Kol böreği)",
+            "description": "Shtresa brumi krokant të rrotulluara me dorë me mish të grirë, djathë artizanal, patate, spinaq ose tahini",
+            "price": "140 ₺"
           },
           {
             "name": "Byrek me shtresa i stilit osman",
-            "description": "Shtresa brumi t├½ ziera t├½ punuara me dor├½ (Su b├Âre─şi), gjalp├½ i shkrir├½, djath├½ i bardh├½ artizanal",
-            "price": "140 Ôé║"
+            "description": "Shtresa brumi të ziera të punuara me dorë (Su böreği), gjalpë i shkrirë, djathë i bardhë artizanal",
+            "price": "140 ₺"
           },
           {
-            "name": "Byrek me gjalp├½",
-            "description": "Shtresa brumi krokant t├½ punuara me dor├½, gjalp├½ i shkrir├½. Tradicionalisht shijohet me sheqer pluhur.",
-            "price": "120 Ôé║"
+            "name": "Byrek me gjalpë",
+            "description": "Shtresa brumi krokant të punuara me dorë, gjalpë i shkrirë. Tradicionalisht shijohet me sheqer pluhur.",
+            "price": "120 ₺"
           }
         ]
       },
@@ -428,67 +428,67 @@ MENU_DATA = {
           {
             "name": "Kola",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
             "name": "Pije me gaz",
             "description": "Klasike/Portokall",
-            "price": "50 Ôé║"
+            "price": "50 ₺"
           },
           {
-            "name": "L├½ng frutash",
-            "description": "Pjeshk├½/Qershi/I p├½rzier",
-            "price": "60 Ôé║"
+            "name": "Lëng frutash",
+            "description": "Pjeshkë/Qershi/I përzier",
+            "price": "60 ₺"
           },
           {
             "name": "Iced Tea",
-            "description": "Limon/Pjeshk├½",
-            "price": "60 Ôé║"
+            "description": "Limon/Pjeshkë",
+            "price": "60 ₺"
           },
           {
             "name": "Ajran",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
-            "name": "Uj├½ mineral",
+            "name": "Ujë mineral",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
-            "name": "Uj├½",
+            "name": "Ujë",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
-            "name": "├çaj autentik",
+            "name": "Çaj autentik",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "Limonat├½ artizanale",
+            "name": "Limonatë artizanale",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
             "name": "Kafe turke",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "de": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "Empfehlung des K├╝chenchefs",
+        "title": "Empfehlung des Küchenchefs",
         "items": [
           {
             "name": "Schwarzmeer-Pide in Eichelform",
-            "description": "D├╝nner knuspriger Teig, authentisches Rize-Kavurma, Butter, Eichelform, Empfehlung des Chefs",
-            "price": "450 Ôé║"
+            "description": "Dünner knuspriger Teig, authentisches Rize-Kavurma, Butter, Eichelform, Empfehlung des Chefs",
+            "price": "450 ₺"
           }
         ]
       },
@@ -497,783 +497,783 @@ MENU_DATA = {
         "items": [
           {
             "name": "Pide mit Hackfleisch",
-            "description": "H├╝nkar-Spezialmischung mit Hackfleisch (Extra Ei 10 TL)",
-            "price": "300 Ôé║"
+            "description": "Hünkar-Spezialmischung mit Hackfleisch (Extra Ei 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Hackfleisch & Gem├╝se",
-            "description": "H├╝nkar-Spezialmischung mit Hackfleisch, frische Tomaten, knackige gr├╝ne Paprika (Extra Ei 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Hackfleisch & Gemüse",
+            "description": "Hünkar-Spezialmischung mit Hackfleisch, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Hackfleisch & K├ñse",
-            "description": "H├╝nkar-Spezialmischung mit Hackfleisch, geschmolzener Artisan-Ka┼şar-K├ñse (Extra Ei 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Hackfleisch & Käse",
+            "description": "Hünkar-Spezialmischung mit Hackfleisch, geschmolzener Artisan-Kaşar-Käse (Extra Ei 10 TL)",
+            "price": "300 ₺"
           },
           {
             "name": "Vrhunski Mixed Pide",
-            "description": "H├╝nkar-Spezialmischung mit Hackfleisch, geschmolzener Ka┼şar-K├ñse, frische Tomaten, knackige gr├╝ne Paprika (Extra Ei 10 TL)",
-            "price": "300 Ôé║"
+            "description": "Hünkar-Spezialmischung mit Hackfleisch, geschmolzener Kaşar-Käse, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Pide mit R├Âstfleisch",
-            "description": "Premium Rize-Kavurma (langsam ger├Âstetes Rindfleisch) (Extra Ei 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Pide mit Röstfleisch",
+            "description": "Premium Rize-Kavurma (langsam geröstetes Rindfleisch) (Extra Ei 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "R├Âstfleisch & K├ñse",
-            "description": "Premium Rize-Kavurma, geschmolzener Artisan-Ka┼şar-K├ñse (Extra Ei 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Röstfleisch & Käse",
+            "description": "Premium Rize-Kavurma, geschmolzener Artisan-Kaşar-Käse (Extra Ei 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "R├Âstfleisch & Gem├╝se",
-            "description": "Premium Rize-Kavurma, frische Tomaten, knackige gr├╝ne Paprika (Extra Ei 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Röstfleisch & Gemüse",
+            "description": "Premium Rize-Kavurma, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Mixed R├Âstfleisch & Gem├╝se",
-            "description": "Premium Rize-Kavurma, geschmolzener Ka┼şar-K├ñse, frische Tomaten, knackige gr├╝ne Paprika (Extra Ei 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Mixed Röstfleisch & Gemüse",
+            "description": "Premium Rize-Kavurma, geschmolzener Kaşar-Käse, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "Pide mit geschmolzenem Artisan-K├ñse",
-            "description": "Geschmolzener Premium Artisan-Ka┼şar-K├ñse (Extra Ei 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Pide mit geschmolzenem Artisan-Käse",
+            "description": "Geschmolzener Premium Artisan-Kaşar-Käse (Extra Ei 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "K├ñse & frisches Land-Ei",
-            "description": "Geschmolzener Artisan-Ka┼şar-K├ñse, frisches Land-Ei (Extra Ei 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Käse & frisches Land-Ei",
+            "description": "Geschmolzener Artisan-Kaşar-Käse, frisches Land-Ei (Extra Ei 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "Geschmolzener K├ñse & Gem├╝se",
-            "description": "Geschmolzener Artisan-Ka┼şar-K├ñse, frische Tomaten, knackige gr├╝ne Paprika (Extra Ei 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Geschmolzener Käse & Gemüse",
+            "description": "Geschmolzener Artisan-Kaşar-Käse, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "W├╝rzige Rinderwurst & K├ñse",
-            "description": "W├╝rzige t├╝rkische Rinderwurst (Sucuk), geschmolzener Artisan-Ka┼şar-K├ñse (Extra Ei 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Würzige Rinderwurst & Käse",
+            "description": "Würzige türkische Rinderwurst (Sucuk), geschmolzener Artisan-Kaşar-Käse (Extra Ei 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
       {
-        "title": "Pide & B├Ârek",
+        "title": "Pide & Börek",
         "items": [
           {
-            "name": "Traditionelles K─▒r Pide",
-            "description": "Weicher Artisan-Teig mit Hackfleisch-, K├ñse- oder Kartoffelf├╝llung",
-            "price": "60 Ôé║"
+            "name": "Traditionelles Kır Pide",
+            "description": "Weicher Artisan-Teig mit Hackfleisch-, Käse- oder Kartoffelfüllung",
+            "price": "60 ₺"
           },
           {
-            "name": "Gerolltes Geb├ñck (Kol b├Âre─şi)",
-            "description": "Handgerollte knusprige Teigschichten mit Hackfleisch, K├ñse, Kartoffeln, Spinat oder Tahini",
-            "price": "140 Ôé║"
+            "name": "Gerolltes Gebäck (Kol böreği)",
+            "description": "Handgerollte knusprige Teigschichten mit Hackfleisch, Käse, Kartoffeln, Spinat oder Tahini",
+            "price": "140 ₺"
           },
           {
-            "name": "Geschichtetes Geb├ñck nach osmanischer Art",
-            "description": "Handgezogene gekochte Teigschichten (Su b├Âre─şi), feine Butter, Artisan-Wei├şk├ñse",
-            "price": "140 Ôé║"
+            "name": "Geschichtetes Gebäck nach osmanischer Art",
+            "description": "Handgezogene gekochte Teigschichten (Su böreği), feine Butter, Artisan-Weißkäse",
+            "price": "140 ₺"
           },
           {
-            "name": "Bl├ñttriges Buttergeb├ñck",
+            "name": "Blättriges Buttergebäck",
             "description": "Handgerollte knusprige Teigschichten, feine Butter. Traditionell mit Puderzucker serviert.",
-            "price": "120 Ôé║"
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "Getr├ñnke",
+        "title": "Getränke",
         "items": [
           {
             "name": "Cola",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
-            "name": "T├╝rkische Limonade",
+            "name": "Türkische Limonade",
             "description": "Klassisch/Orange",
-            "price": "50 Ôé║"
+            "price": "50 ₺"
           },
           {
             "name": "Fruchtsaft",
             "description": "Pfirsich/Sauerkirsche/Gemischt",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
             "name": "Eistee",
             "description": "Zitrone/Pfirsich",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
             "name": "Ayran",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
             "name": "Mineralwasser",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
             "name": "Wasser",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
             "name": "Authentischer Schwarzmeer-Tee",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
             "name": "Hausgemachte Limonade",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
-            "name": "T├╝rkischer Kaffee",
+            "name": "Türkischer Kaffee",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "bg": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "ºşªÇºÁº┐º¥ªÇªèº║º░ º¢º░ º│º╗º░º▓º¢º©ªÅ º│º¥ªéº▓º░ªç",
+        "title": "Препоръка на главния готвач",
         "items": [
           {
-            "name": "ºğºÁªÇº¢º¥º╝º¥ªÇªüº║º¥ º┐º©º┤ºÁ ªü ªäº¥ªÇº╝º░ º¢º░ ºÂªèº╗ªèº┤",
-            "description": "ºóªèº¢º║º¥ ªàªÇªâº┐º║º░º▓º¥ ªéºÁªüªéº¥, º░º▓ªéºÁº¢ªéº©ªçº¢º░ ºáº©ºÀº░ º║º░º▓ªâªÇº╝º░, º╝º░ªüº╗º¥, ªäº¥ªÇº╝º░ º¢º░ ºÂªèº╗ªèº┤, º┐ªÇºÁº┐º¥ªÇªèº║º░ º¢º░ ªêºÁªäº░",
-            "price": "450 Ôé║"
+            "name": "Черноморско пиде с форма на жълъд",
+            "description": "Тънко хрупкаво тесто, автентична Риза кавурма, масло, форма на жълъд, препоръка на шефа",
+            "price": "450 ₺"
           }
         ]
       },
       {
-        "title": "ºğºÁªÇº¢º¥º╝º¥ªÇªüº║º¥ º┐º©º┤ºÁ",
+        "title": "Черноморско пиде",
         "items": [
           {
-            "name": "ºşº©º┤ºÁ ªü º║º░º╣º╝º░",
-            "description": "ºíº┐ºÁªåº©º░º╗º¢º░ ªüº╝ºÁªü º¥ªé º║º░º╣º╝º░ º┐º¥ ªüªéº©º╗ H├╝nkar (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Пиде с кайма",
+            "description": "Специална смес от кайма по стил Hünkar (Екстра яйце 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "ºÜº░º╣º╝º░ º© ºÀºÁº╗ºÁº¢ªçªâªåº©",
-            "description": "ºíº┐ºÁªåº©º░º╗º¢º░ ªüº╝ºÁªü º¥ªé º║º░º╣º╝º░ º┐º¥ ªüªéº©º╗ H├╝nkar, º┐ªÇºÁªüº¢º© º┤º¥º╝º░ªéº©, ªàªÇªâº┐º║º░º▓º© ºÀºÁº╗ºÁº¢º© ªçªâªêº║º© (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Кайма и зеленчуци",
+            "description": "Специална смес от кайма по стил Hünkar, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "ºÜº░º╣º╝º░ º© ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ",
-            "description": "ºíº┐ºÁªåº©º░º╗º¢º░ ªüº╝ºÁªü º¥ªé º║º░º╣º╝º░ º┐º¥ ªüªéº©º╗ H├╝nkar, ªÇº░ºÀªéº¥º┐ºÁº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ ºÜº░ªêº║º░º▓º░º╗ (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Кайма и занаятчийско сирене",
+            "description": "Специална смес от кайма по стил Hünkar, разтопено занаятчийско сирене Кашкавал (Екстра яйце 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "ºÆªèªÇªàº¥º▓º¢º¥ ªüº╝ºÁªüºÁº¢º¥ º┐º©º┤ºÁ",
-            "description": "ºíº┐ºÁªåº©º░º╗º¢º░ ªüº╝ºÁªü º¥ªé º║º░º╣º╝º░ º┐º¥ ªüªéº©º╗ H├╝nkar, ªÇº░ºÀªéº¥º┐ºÁº¢ º║º░ªêº║º░º▓º░º╗, º┐ªÇºÁªüº¢º© º┤º¥º╝º░ªéº©, ªàªÇªâº┐º║º░º▓º© ºÀºÁº╗ºÁº¢º© ªçªâªêº║º© (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Върховно смесено пиде",
+            "description": "Специална смес от кайма по стил Hünkar, разтопен кашкавал, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "ºşº©º┤ºÁ ªü º┐ºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥",
-            "description": "ºşªèªÇº▓º¥º║º╗º░ªüº¢º¥ º▒º░º▓º¢º¥ º┐ºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ ºáº©ºÀº░ (ºÜº░º▓ªâªÇº╝º░) (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Пиде с печено говеждо",
+            "description": "Първокласно бавно печено говеждо Риза (Кавурма) (Екстра яйце 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "ºşºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ º© ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ",
-            "description": "ºşªèªÇº▓º¥º║º╗º░ªüº¢º¥ º▒º░º▓º¢º¥ º┐ºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ ºáº©ºÀº░ (ºÜº░º▓ªâªÇº╝º░), ªÇº░ºÀªéº¥º┐ºÁº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ ºÜº░ªêº║º░º▓º░º╗ (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Печено говеждо и занаятчийско сирене",
+            "description": "Първокласно бавно печено говеждо Риза (Кавурма), разтопено занаятчийско сирене Кашкавал (Екстра яйце 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "ºşºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ º© ºÀºÁº╗ºÁº¢ªçªâªåº©",
-            "description": "ºşªèªÇº▓º¥º║º╗º░ªüº¢º¥ º▒º░º▓º¢º¥ º┐ºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ ºáº©ºÀº░ (ºÜº░º▓ªâªÇº╝º░), º┐ªÇºÁªüº¢º© º┤º¥º╝º░ªéº©, ªàªÇªâº┐º║º░º▓º© ºÀºÁº╗ºÁº¢º© ªçªâªêº║º© (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Печено говеждо и зеленчуци",
+            "description": "Първокласно бавно печено говеждо Риза (Кавурма), пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "ºíº╝ºÁªüºÁº¢º¥ º┐ºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ º© ºÀºÁº╗ºÁº¢ªçªâªåº©",
-            "description": "ºşªèªÇº▓º¥º║º╗º░ªüº¢º¥ º▒º░º▓º¢º¥ º┐ºÁªçºÁº¢º¥ º│º¥º▓ºÁºÂº┤º¥ ºáº©ºÀº░ (ºÜº░º▓ªâªÇº╝º░), ªÇº░ºÀªéº¥º┐ºÁº¢ º║º░ªêº║º░º▓º░º╗, º┐ªÇºÁªüº¢º© º┤º¥º╝º░ªéº©, ªàªÇªâº┐º║º░º▓º© ºÀºÁº╗ºÁº¢º© ªçªâªêº║º© (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Смесено печено говеждо и зеленчуци",
+            "description": "Първокласно бавно печено говеждо Риза (Кавурма), разтопен кашкавал, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "ºşº©º┤ºÁ ªü ªÇº░ºÀªéº¥º┐ºÁº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ",
-            "description": "ºáº░ºÀªéº¥º┐ºÁº¢º¥ º┐ªèªÇº▓º¥º║º╗º░ªüº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ ºÜº░ªêº║º░º▓º░º╗ (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Пиде с разтопено занаятчийско сирене",
+            "description": "Разтопено първокласно занаятчийско сирене Кашкавал (Екстра яйце 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "ºíº©ªÇºÁº¢ºÁ º© º┐ªÇªÅªüº¢º¥ ªüºÁº╗ªüº║º¥ ªÅº╣ªåºÁ",
-            "description": "ºáº░ºÀªéº¥º┐ºÁº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ ºÜº░ªêº║º░º▓º░º╗, º┐ªÇªÅªüº¢º¥ ªüºÁº╗ªüº║º¥ ªÅº╣ªåºÁ (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Сирене и прясно селско яйце",
+            "description": "Разтопено занаятчийско сирене Кашкавал, прясно селско яйце (Екстра яйце 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "ºáº░ºÀªéº¥º┐ºÁº¢º¥ ªüº©ªÇºÁº¢ºÁ º© ºÀºÁº╗ºÁº¢ªçªâªåº©",
-            "description": "ºáº░ºÀªéº¥º┐ºÁº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ ºÜº░ªêº║º░º▓º░º╗, º┐ªÇºÁªüº¢º© º┤º¥º╝º░ªéº©, ªàªÇªâº┐º║º░º▓º© ºÀºÁº╗ºÁº¢º© ªçªâªêº║º© (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Разтопено сирене и зеленчуци",
+            "description": "Разтопено занаятчийско сирене Кашкавал, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "ºşº©º║º░º¢ªéºÁº¢ º│º¥º▓ºÁºÂº┤º© ªüº░º╗º░º╝ º© ªüº©ªÇºÁº¢ºÁ",
-            "description": "ºşº©º║º░º¢ªéºÁº¢ ªéªâªÇªüº║º© º│º¥º▓ºÁºÂº┤º© ªüº░º╗º░º╝ (ºíªâº┤ºÂªâº║), ªÇº░ºÀªéº¥º┐ºÁº¢º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ ºÜº░ªêº║º░º▓º░º╗ (ºòº║ªüªéªÇº░ ªÅº╣ªåºÁ 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Пикантен говежди салам и сирене",
+            "description": "Пикантен турски говежди салам (Суджук), разтопено занаятчийско сирене Кашкавал (Екстра яйце 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
       {
-        "title": "ºşº©º┤ºÁ º© ºæªÄªÇºÁº║",
+        "title": "Пиде и Бюрек",
         "items": [
           {
-            "name": "ºóªÇº░º┤º©ªåº©º¥º¢º¢º¥ ºÜªèªÇ º┐º©º┤ºÁ",
-            "description": "º£ºÁº║º¥ ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªéºÁªüªéº¥ ªü º©ºÀº▒º¥ªÇ º¥ªé º║º░º╣º╝º░, ªüº©ªÇºÁº¢ºÁ º©º╗º© º║º░ªÇªéº¥ªäº©",
-            "price": "60 Ôé║"
+            "name": "Традиционно Кър пиде",
+            "description": "Меко занаятчийско тесто с избор от кайма, сирене или картофи",
+            "price": "60 ₺"
           },
           {
-            "name": "ºØº░º▓º©ªéº░ º▒º░º¢º©ªåº░ (Kol b├Âre─şi)",
-            "description": "ºáªèªçº¢º¥ º¢º░º▓º©ªéº© ªàªÇªâº┐º║º░º▓º© º║º¥ªÇº© ªü º║º░º╣º╝º░, ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ ªüº©ªÇºÁº¢ºÁ, º║º░ªÇªéº¥ªäº©, ªüº┐º░º¢º░º║ º©º╗º© ªéº░ªàº░º¢",
-            "price": "140 Ôé║"
+            "name": "Навита баница (Kol böreği)",
+            "description": "Ръчно навити хрупкави кори с кайма, занаятчийско сирене, картофи, спанак или тахан",
+            "price": "140 ₺"
           },
           {
-            "name": "ºíº╗º¥ºÁº¢º░ º▒º░º¢º©ªåº░ º▓ º¥ªüº╝º░º¢ªüº║º© ªüªéº©º╗",
-            "description": "ºáªèªçº¢º¥ ªÇº░ºÀªéº¥ªçºÁº¢º© º▓º░ªÇºÁº¢º© º║º¥ªÇº© (Su b├Âre─şi), º┐ªèªÇº▓º¥º║º╗º░ªüº¢º¥ º╝º░ªüº╗º¥, ºÀº░º¢º░ªÅªéªçº©º╣ªüº║º¥ º▒ªÅº╗º¥ ªüº©ªÇºÁº¢ºÁ",
-            "price": "140 Ôé║"
+            "name": "Слоена баница в османски стил",
+            "description": "Ръчно разточени варени кори (Su böreği), първокласно масло, занаятчийско бяло сирене",
+            "price": "140 ₺"
           },
           {
-            "name": "º£º░ªüº╗ºÁº¢º░ ªàªÇªâº┐º║º░º▓º░ º▒º░º¢º©ªåº░",
-            "description": "ºáªèªçº¢º¥ º¢º░º▓º©ªéº© ªàªÇªâº┐º║º░º▓º© º║º¥ªÇº©, º┐ªèªÇº▓º¥º║º╗º░ªüº¢º¥ º╝º░ªüº╗º¥. ºóªÇº░º┤º©ªåº©º¥º¢º¢º¥ ªüºÁ ªüºÁªÇº▓º©ªÇº░ ªü º┐ªâº┤ªÇº░ ºÀº░ªàº░ªÇ.",
-            "price": "120 Ôé║"
+            "name": "Маслена хрупкава баница",
+            "description": "Ръчно навити хрупкави кори, първокласно масло. Традиционно се сервира с пудра захар.",
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "ºØº░º┐º©ªéº║º©",
+        "title": "Напитки",
         "items": [
           {
-            "name": "ºÜº¥º╗º░",
+            "name": "Кола",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
-            "name": "ºóªâªÇªüº║º░ º│º░ºÀº©ªÇº░º¢º░ º¢º░º┐º©ªéº║º░",
-            "description": "ºÜº╗º░ªüº©º║/ºşº¥ªÇªéº¥º║º░º╗",
-            "price": "50 Ôé║"
+            "name": "Турска газирана напитка",
+            "description": "Класик/Портокал",
+            "price": "50 ₺"
           },
           {
-            "name": "ºşº╗º¥º┤º¥º▓ ªüº¥º║",
-            "description": "ºşªÇº░ªüº║º¥º▓º░/ºÆº©ªêº¢º░/º£º©º║ªü",
-            "price": "60 Ôé║"
+            "name": "Плодов сок",
+            "description": "Праскова/Вишна/Микс",
+            "price": "60 ₺"
           },
           {
-            "name": "ºíªéªâº┤ºÁº¢ ªçº░º╣",
-            "description": "ºøº©º╝º¥º¢/ºşªÇº░ªüº║º¥º▓º░",
-            "price": "60 Ôé║"
+            "name": "Студен чай",
+            "description": "Лимон/Праскова",
+            "price": "60 ₺"
           },
           {
-            "name": "ºÉº╣ªÇªÅº¢",
+            "name": "Айрян",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
-            "name": "º£º©º¢ºÁªÇº░º╗º¢º░ º▓º¥º┤º░",
+            "name": "Минерална вода",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
-            "name": "ºÆº¥º┤º░",
+            "name": "Вода",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
-            "name": "ºÉº▓ªéºÁº¢ªéº©ªçºÁº¢ ªéªâªÇªüº║º© ªçº░º╣",
+            "name": "Автентичен турски чай",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "ºáªèªçº¢º¥ º┐ªÇº░º▓ºÁº¢º░ º╗º©º╝º¥º¢º░º┤º░",
+            "name": "Ръчно правена лимонада",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
-            "name": "ºóªâªÇªüº║º¥ º║º░ªäºÁ",
+            "name": "Турско кафе",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "el": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "╬á¤ü¤î¤ä╬▒¤â╬À ¤ä╬┐¤à ╬ú╬Á¤å",
+        "title": "Πρόταση του Σεφ",
         "items": [
           {
-            "name": "╬á╬»╬¢¤ä╬Á ╬£╬▒¤ı¤ü╬À¤é ╬İ╬¼╬╗╬▒¤â¤â╬▒¤é ¤â╬Á ¤â¤ç╬«╬╝╬▒ ╬▓╬Á╬╗╬▒╬¢╬╣╬┤╬╣╬┐¤ı",
-            "description": "╬ø╬Á¤Ç¤ä╬« ¤ä¤ü╬▒╬│╬▒╬¢╬« ╬Â¤ı╬╝╬À, ╬▒¤à╬©╬Á╬¢¤ä╬╣╬║¤î ╬║╬▒╬▓╬┐¤à¤ü╬╝╬¼ ╬í╬╣╬Â╬¡, ╬▓╬┐¤ı¤ä¤à¤ü╬┐, ¤â¤ç╬«╬╝╬▒ ╬▓╬Á╬╗╬▒╬¢╬╣╬┤╬╣╬┐¤ı, ¤Ç¤ü¤î¤ä╬▒¤â╬À ¤ä╬┐¤à ¤â╬Á¤å",
-            "price": "450 Ôé║"
+            "name": "Πίντε Μαύρης Θάλασσας σε σχήμα βελανιδιού",
+            "description": "Λεπτή τραγανή ζύμη, αυθεντικό καβουρμά Ριζέ, βούτυρο, σχήμα βελανιδιού, πρόταση του σεφ",
+            "price": "450 ₺"
           }
         ]
       },
       {
-        "title": "╬á╬»╬¢¤ä╬Á ╬£╬▒¤ı¤ü╬À¤é ╬İ╬¼╬╗╬▒¤â¤â╬▒¤é",
+        "title": "Πίντε Μαύρης Θάλασσας",
         "items": [
           {
-            "name": "╬á╬»╬¢¤ä╬Á ╬╝╬Á ╬║╬╣╬╝╬¼",
-            "description": "╬ò╬╣╬┤╬╣╬║¤î ╬╝╬Á╬»╬│╬╝╬▒ ╬║╬╣╬╝╬¼ ¤â╬Á ¤â¤ä¤à╬╗ H├╝nkar (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Πίντε με κιμά",
+            "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar (Έξτρα αυγό 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "╬Ü╬╣╬╝╬¼¤é & ╬╗╬▒¤ç╬▒╬¢╬╣╬║╬¼",
-            "description": "╬ò╬╣╬┤╬╣╬║¤î ╬╝╬Á╬»╬│╬╝╬▒ ╬║╬╣╬╝╬¼ ¤â╬Á ¤â¤ä¤à╬╗ H├╝nkar, ¤å¤ü╬¡¤â╬║╬╣╬▒ ╬¢¤ä╬┐╬╝╬¼¤ä╬▒, ¤ä¤ü╬▒╬│╬▒╬¢╬« ¤Ç¤ü╬¼¤â╬╣╬¢╬À ¤Ç╬╣¤Ç╬Á¤ü╬╣╬¼ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Κιμάς & λαχανικά",
+            "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "╬Ü╬╣╬╝╬¼¤é & ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣",
-            "description": "╬ò╬╣╬┤╬╣╬║¤î ╬╝╬Á╬»╬│╬╝╬▒ ╬║╬╣╬╝╬¼ ¤â╬Á ¤â¤ä¤à╬╗ H├╝nkar, ╬╗╬╣¤ë╬╝╬¡╬¢╬┐ ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Κιμάς & χειροποίητο κασέρι",
+            "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar, λιωμένο χειροποίητο κασέρι (Έξτρα αυγό 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "╬á╬»╬¢¤ä╬Á ╬ú╬┐¤à¤Ç¤ü╬»╬╝ ╬▒╬¢╬¼╬╝╬Á╬╣╬║¤ä╬┐",
-            "description": "╬ò╬╣╬┤╬╣╬║¤î ╬╝╬Á╬»╬│╬╝╬▒ ╬║╬╣╬╝╬¼ ¤â╬Á ¤â¤ä¤à╬╗ H├╝nkar, ╬╗╬╣¤ë╬╝╬¡╬¢╬┐ ╬║╬▒¤â╬¡¤ü╬╣, ¤å¤ü╬¡¤â╬║╬╣╬▒ ╬¢¤ä╬┐╬╝╬¼¤ä╬▒, ¤ä¤ü╬▒╬│╬▒╬¢╬« ¤Ç¤ü╬¼¤â╬╣╬¢╬À ¤Ç╬╣¤Ç╬Á¤ü╬╣╬¼ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Πίντε Σουπρίμ ανάμεικτο",
+            "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar, λιωμένο κασέρι, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "╬á╬»╬¢¤ä╬Á ╬╝╬Á ¤ê╬À¤ä¤î ╬╝╬┐¤â¤ç╬¼¤ü╬╣",
-            "description": "╬ò╬║╬╗╬Á╬║¤ä¤î ¤â╬╣╬│╬┐¤ê╬À╬╝╬¡╬¢╬┐ ╬╝╬┐¤â¤ç╬¼¤ü╬╣ ╬í╬╣╬Â╬¡ (╬Ü╬▒╬▓╬┐¤à¤ü╬╝╬¼¤é) (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Πίντε με ψητό μοσχάρι",
+            "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς) (Έξτρα αυγό 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "╬¿╬À¤ä¤î ╬╝╬┐¤â¤ç╬¼¤ü╬╣ & ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣",
-            "description": "╬ò╬║╬╗╬Á╬║¤ä¤î ¤â╬╣╬│╬┐¤ê╬À╬╝╬¡╬¢╬┐ ╬╝╬┐¤â¤ç╬¼¤ü╬╣ ╬í╬╣╬Â╬¡ (╬Ü╬▒╬▓╬┐¤à¤ü╬╝╬¼¤é), ╬╗╬╣¤ë╬╝╬¡╬¢╬┐ ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Ψητό μοσχάρι & χειροποίητο κασέρι",
+            "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς), λιωμένο χειροποίητο κασέρι (Έξτρα αυγό 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "╬¿╬À¤ä¤î ╬╝╬┐¤â¤ç╬¼¤ü╬╣ & ╬╗╬▒¤ç╬▒╬¢╬╣╬║╬¼",
-            "description": "╬ò╬║╬╗╬Á╬║¤ä¤î ¤â╬╣╬│╬┐¤ê╬À╬╝╬¡╬¢╬┐ ╬╝╬┐¤â¤ç╬¼¤ü╬╣ ╬í╬╣╬Â╬¡ (╬Ü╬▒╬▓╬┐¤à¤ü╬╝╬¼¤é), ¤å¤ü╬¡¤â╬║╬╣╬▒ ╬¢¤ä╬┐╬╝╬¼¤ä╬▒, ¤ä¤ü╬▒╬│╬▒╬¢╬« ¤Ç¤ü╬¼¤â╬╣╬¢╬À ¤Ç╬╣¤Ç╬Á¤ü╬╣╬¼ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Ψητό μοσχάρι & λαχανικά",
+            "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς), φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "╬æ╬¢╬¼╬╝╬Á╬╣╬║¤ä╬┐ ¤ê╬À¤ä¤î ╬╝╬┐¤â¤ç╬¼¤ü╬╣ & ╬╗╬▒¤ç╬▒╬¢╬╣╬║╬¼",
-            "description": "╬ò╬║╬╗╬Á╬║¤ä¤î ¤â╬╣╬│╬┐¤ê╬À╬╝╬¡╬¢╬┐ ╬╝╬┐¤â¤ç╬¼¤ü╬╣ ╬í╬╣╬Â╬¡ (╬Ü╬▒╬▓╬┐¤à¤ü╬╝╬¼¤é), ╬╗╬╣¤ë╬╝╬¡╬¢╬┐ ╬║╬▒¤â╬¡¤ü╬╣, ¤å¤ü╬¡¤â╬║╬╣╬▒ ╬¢¤ä╬┐╬╝╬¼¤ä╬▒, ¤ä¤ü╬▒╬│╬▒╬¢╬« ¤Ç¤ü╬¼¤â╬╣╬¢╬À ¤Ç╬╣¤Ç╬Á¤ü╬╣╬¼ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Ανάμεικτο ψητό μοσχάρι & λαχανικά",
+            "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς), λιωμένο κασέρι, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "╬á╬»╬¢¤ä╬Á ╬╝╬Á ╬╗╬╣¤ë╬╝╬¡╬¢╬┐ ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣",
-            "description": "╬ø╬╣¤ë╬╝╬¡╬¢╬┐ ╬Á╬║╬╗╬Á╬║¤ä¤î ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Πίντε με λιωμένο χειροποίητο κασέρι",
+            "description": "Λιωμένο εκλεκτό χειροποίητο κασέρι (Έξτρα αυγό 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "╬Ü╬▒¤â╬¡¤ü╬╣ & ¤å¤ü╬¡¤â╬║╬┐ ¤ç¤ë¤ü╬╣╬¼¤ä╬╣╬║╬┐ ╬▒¤à╬│¤î",
-            "description": "╬ø╬╣¤ë╬╝╬¡╬¢╬┐ ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣, ¤å¤ü╬¡¤â╬║╬┐ ¤ç¤ë¤ü╬╣╬¼¤ä╬╣╬║╬┐ ╬▒¤à╬│¤î (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Κασέρι & φρέσκο χωριάτικο αυγό",
+            "description": "Λιωμένο χειροποίητο κασέρι, φρέσκο χωριάτικο αυγό (Έξτρα αυγό 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "╬ø╬╣¤ë╬╝╬¡╬¢╬┐ ╬║╬▒¤â╬¡¤ü╬╣ & ╬╗╬▒¤ç╬▒╬¢╬╣╬║╬¼",
-            "description": "╬ø╬╣¤ë╬╝╬¡╬¢╬┐ ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣, ¤å¤ü╬¡¤â╬║╬╣╬▒ ╬¢¤ä╬┐╬╝╬¼¤ä╬▒, ¤ä¤ü╬▒╬│╬▒╬¢╬« ¤Ç¤ü╬¼¤â╬╣╬¢╬À ¤Ç╬╣¤Ç╬Á¤ü╬╣╬¼ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Λιωμένο κασέρι & λαχανικά",
+            "description": "Λιωμένο χειροποίητο κασέρι, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "╬á╬╣╬║╬¼╬¢¤ä╬╣╬║╬┐ ╬╝╬┐¤â¤ç╬▒¤ü╬»¤â╬╣╬┐ ╬╗╬┐¤à╬║╬¼╬¢╬╣╬║╬┐ & ╬║╬▒¤â╬¡¤ü╬╣",
-            "description": "╬á╬╣╬║╬¼╬¢¤ä╬╣╬║╬┐ ¤ä╬┐¤ı¤ü╬║╬╣╬║╬┐ ╬╝╬┐¤â¤ç╬▒¤ü╬»¤â╬╣╬┐ ╬╗╬┐¤à╬║╬¼╬¢╬╣╬║╬┐ (╬ú╬┐¤à¤ä╬Â╬┐¤ı╬║╬╣), ╬╗╬╣¤ë╬╝╬¡╬¢╬┐ ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬║╬▒¤â╬¡¤ü╬╣ (╬ê╬¥¤ä¤ü╬▒ ╬▒¤à╬│¤î 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Πικάντικο μοσχαρίσιο λουκάνικο & κασέρι",
+            "description": "Πικάντικο τούρκικο μοσχαρίσιο λουκάνικο (Σουτζούκι), λιωμένο χειροποίητο κασέρι (Έξτρα αυγό 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
       {
-        "title": "╬á╬»╬¢¤ä╬Á & ╬£¤Ç╬┐¤à¤ü╬¡╬║╬╣",
+        "title": "Πίντε & Μπουρέκι",
         "items": [
           {
-            "name": "╬á╬▒¤ü╬▒╬┤╬┐¤â╬╣╬▒╬║¤î ╬Ü╬╣¤ü ╬á╬»╬¢¤ä╬Á",
-            "description": "╬£╬▒╬╗╬▒╬║╬« ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬À ╬Â¤ı╬╝╬À ╬╝╬Á ╬Á¤Ç╬╣╬╗╬┐╬│╬« ╬▒¤Ç¤î ╬║╬╣╬╝╬¼, ¤ä¤à¤ü╬» ╬« ¤Ç╬▒¤ä╬¼¤ä╬▒",
-            "price": "60 Ôé║"
+            "name": "Παραδοσιακό Κιρ Πίντε",
+            "description": "Μαλακή χειροποίητη ζύμη με επιλογή από κιμά, τυρί ή πατάτα",
+            "price": "60 ₺"
           },
           {
-            "name": "╬ñ¤à╬╗╬╣¤ç¤ä╬« ¤Ç╬»¤ä╬▒ (Kol b├Âre─şi)",
-            "description": "╬ğ╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬▒ ¤ä¤ü╬▒╬│╬▒╬¢╬¼ ¤å¤ı╬╗╬╗╬▒ ╬╝╬Á ╬║╬╣╬╝╬¼, ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ¤ä¤à¤ü╬», ¤Ç╬▒¤ä╬¼¤ä╬▒, ¤â¤Ç╬▒╬¢╬¼╬║╬╣ ╬« ¤ä╬▒¤ç╬»╬¢╬╣",
-            "price": "140 Ôé║"
+            "name": "Τυλιχτή πίτα (Kol böreği)",
+            "description": "Χειροποίητα τραγανά φύλλα με κιμά, χειροποίητο τυρί, πατάτα, σπανάκι ή ταχίνι",
+            "price": "140 ₺"
           },
           {
-            "name": "╬á╬»¤ä╬▒ ╬╝╬Á ¤â¤ä¤ü¤Ä¤â╬Á╬╣¤é ╬┐╬©¤ë╬╝╬▒╬¢╬╣╬║╬┐¤ı ¤ä¤ı¤Ç╬┐¤à",
-            "description": "╬ğ╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬▒ ╬▓¤ü╬▒¤â¤ä╬¼ ¤å¤ı╬╗╬╗╬▒ (Su b├Âre─şi), ╬Á╬║╬╗╬Á╬║¤ä¤î ╬▓╬┐¤ı¤ä¤à¤ü╬┐, ¤ç╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬┐ ╬╗╬Á¤à╬║¤î ¤ä¤à¤ü╬»",
-            "price": "140 Ôé║"
+            "name": "Πίτα με στρώσεις οθωμανικού τύπου",
+            "description": "Χειροποίητα βραστά φύλλα (Su böreği), εκλεκτό βούτυρο, χειροποίητο λευκό τυρί",
+            "price": "140 ₺"
           },
           {
-            "name": "╬ñ¤ü╬▒╬│╬▒╬¢╬« ¤Ç╬»¤ä╬▒ ╬▓╬┐¤à¤ä¤ı¤ü╬┐¤à",
-            "description": "╬ğ╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬▒ ¤ä¤ü╬▒╬│╬▒╬¢╬¼ ¤å¤ı╬╗╬╗╬▒, ╬Á╬║╬╗╬Á╬║¤ä¤î ╬▓╬┐¤ı¤ä¤à¤ü╬┐. ╬á╬▒¤ü╬▒╬┤╬┐¤â╬╣╬▒╬║╬¼ ¤â╬Á¤ü╬▓╬»¤ü╬Á¤ä╬▒╬╣ ╬╝╬Á ╬¼¤ç╬¢╬À ╬Â╬¼¤ç╬▒¤ü╬À.",
-            "price": "120 Ôé║"
+            "name": "Τραγανή πίτα βουτύρου",
+            "description": "Χειροποίητα τραγανά φύλλα, εκλεκτό βούτυρο. Παραδοσιακά σερβίρεται με άχνη ζάχαρη.",
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "╬á╬┐¤ä╬¼",
+        "title": "Ποτά",
         "items": [
           {
-            "name": "╬Ü¤î╬╗╬▒",
+            "name": "Κόλα",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
-            "name": "╬ñ╬┐¤ı¤ü╬║╬╣╬║╬À ╬│╬║╬▒╬Â¤î╬Â╬▒",
-            "description": "╬Ü╬╗╬▒¤â╬╣╬║╬«/╬á╬┐¤ü¤ä╬┐╬║╬¼╬╗╬╣",
-            "price": "50 Ôé║"
+            "name": "Τούρκικη γκαζόζα",
+            "description": "Κλασική/Πορτοκάλι",
+            "price": "50 ₺"
           },
           {
-            "name": "╬ğ¤à╬╝¤î¤é ¤å¤ü╬┐¤ı¤ä¤ë╬¢",
-            "description": "╬í╬┐╬┤╬¼╬║╬╣╬¢╬┐/╬Æ¤ı¤â¤â╬╣╬¢╬┐/╬æ╬¢╬¼╬╝╬Á╬╣╬║¤ä╬┐¤é",
-            "price": "60 Ôé║"
+            "name": "Χυμός φρούτων",
+            "description": "Ροδάκινο/Βύσσινο/Ανάμεικτος",
+            "price": "60 ₺"
           },
           {
-            "name": "╬Ü¤ü¤ı╬┐ ¤ä¤â╬¼╬╣",
-            "description": "╬ø╬Á╬╝¤î╬¢╬╣/╬í╬┐╬┤╬¼╬║╬╣╬¢╬┐",
-            "price": "60 Ôé║"
+            "name": "Κρύο τσάι",
+            "description": "Λεμόνι/Ροδάκινο",
+            "price": "60 ₺"
           },
           {
-            "name": "╬æ¤è¤ü╬¼╬¢╬╣",
+            "name": "Αϊράνι",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
-            "name": "╬æ╬¢╬©¤ü╬▒╬║╬┐¤ı¤ç╬┐ ╬¢╬Á¤ü¤î",
+            "name": "Ανθρακούχο νερό",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
-            "name": "╬Ø╬Á¤ü¤î",
+            "name": "Νερό",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
-            "name": "╬æ¤à╬©╬Á╬¢¤ä╬╣╬║¤î ¤ä¤â╬¼╬╣",
+            "name": "Αυθεντικό τσάι",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "╬ğ╬Á╬╣¤ü╬┐¤Ç╬┐╬»╬À¤ä╬À ╬╗╬Á╬╝╬┐╬¢╬¼╬┤╬▒",
+            "name": "Χειροποίητη λεμονάδα",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
-            "name": "╬ñ╬┐¤ı¤ü╬║╬╣╬║╬┐¤é ╬║╬▒¤å╬¡¤é",
+            "name": "Τούρκικος καφές",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "ro": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "Recomandarea Buc─âtarului",
+        "title": "Recomandarea Bucătarului",
         "items": [
           {
-            "name": "Pide de la Marea Neagr─â ├«n form─â de ghind─â",
-            "description": "Aluat sub╚øire crocant, kavurma autentic─â de Rize, unt, form─â de ghind─â, recomandarea buc─âtarului",
-            "price": "450 Ôé║"
+            "name": "Pide de la Marea Neagră în formă de ghindă",
+            "description": "Aluat subțire crocant, kavurma autentică de Rize, unt, formă de ghindă, recomandarea bucătarului",
+            "price": "450 ₺"
           }
         ]
       },
       {
-        "title": "Pide de la Marea Neagr─â",
+        "title": "Pide de la Marea Neagră",
         "items": [
           {
-            "name": "Pide cu carne tocat─â",
-            "description": "Amestec special de carne tocat─â ├«n stil H├╝nkar (Ou extra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Pide cu carne tocată",
+            "description": "Amestec special de carne tocată în stil Hünkar (Ou extra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Carne tocat─â ╚Öi legume",
-            "description": "Amestec special de carne tocat─â ├«n stil H├╝nkar, ro╚Öii proaspete, ardei verde crocant (Ou extra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Carne tocată și legume",
+            "description": "Amestec special de carne tocată în stil Hünkar, roșii proaspete, ardei verde crocant (Ou extra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Carne tocat─â ╚Öi ca╚Öcaval artizanal",
-            "description": "Amestec special de carne tocat─â ├«n stil H├╝nkar, ca╚Öcaval artizanal topit (Ou extra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Carne tocată și cașcaval artizanal",
+            "description": "Amestec special de carne tocată în stil Hünkar, cașcaval artizanal topit (Ou extra 10 TL)",
+            "price": "300 ₺"
           },
           {
             "name": "Pide mixt suprem",
-            "description": "Amestec special de carne tocat─â ├«n stil H├╝nkar, ca╚Öcaval topit, ro╚Öii proaspete, ardei verde crocant (Ou extra 10 TL)",
-            "price": "300 Ôé║"
+            "description": "Amestec special de carne tocată în stil Hünkar, cașcaval topit, roșii proaspete, ardei verde crocant (Ou extra 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Pide cu vit─â la cuptor",
-            "description": "Vit─â de Rize premium g─âtit─â lent (Kavurma) (Ou extra 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Pide cu vită la cuptor",
+            "description": "Vită de Rize premium gătită lent (Kavurma) (Ou extra 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Vit─â la cuptor ╚Öi ca╚Öcaval",
-            "description": "Vit─â de Rize premium g─âtit─â lent (Kavurma), ca╚Öcaval artizanal topit (Ou extra 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Vită la cuptor și cașcaval",
+            "description": "Vită de Rize premium gătită lent (Kavurma), cașcaval artizanal topit (Ou extra 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "Vit─â la cuptor ╚Öi legume",
-            "description": "Vit─â de Rize premium g─âtit─â lent (Kavurma), ro╚Öii proaspete, ardei verde crocant (Ou extra 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Vită la cuptor și legume",
+            "description": "Vită de Rize premium gătită lent (Kavurma), roșii proaspete, ardei verde crocant (Ou extra 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Mix de vit─â, legume ╚Öi ca╚Öcaval",
-            "description": "Vit─â de Rize premium g─âtit─â lent (Kavurma), ca╚Öcaval topit, ro╚Öii proaspete, ardei verde crocant (Ou extra 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Mix de vită, legume și cașcaval",
+            "description": "Vită de Rize premium gătită lent (Kavurma), cașcaval topit, roșii proaspete, ardei verde crocant (Ou extra 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "Pide cu ca╚Öcaval artizanal topit",
-            "description": "Ca╚Öcaval artizanal premium topit (Ou extra 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Pide cu cașcaval artizanal topit",
+            "description": "Cașcaval artizanal premium topit (Ou extra 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "Ca╚Öcaval ╚Öi ou proasp─ât de ╚øar─â",
-            "description": "Ca╚Öcaval artizanal topit, ou proasp─ât de ╚øar─â (Ou extra 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Cașcaval și ou proaspăt de țară",
+            "description": "Cașcaval artizanal topit, ou proaspăt de țară (Ou extra 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "Ca╚Öcaval topit ╚Öi legume",
-            "description": "Ca╚Öcaval artizanal topit, ro╚Öii proaspete, ardei verde crocant (Ou extra 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Cașcaval topit și legume",
+            "description": "Cașcaval artizanal topit, roșii proaspete, ardei verde crocant (Ou extra 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "C├órna╚øi de vit─â condimenta╚øi ╚Öi ca╚Öcaval",
-            "description": "C├órna╚øi de vit─â turce╚Öti condimenta╚øi (Sucuk), ca╚Öcaval artizanal topit (Ou extra 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Cârnați de vită condimentați și cașcaval",
+            "description": "Cârnați de vită turcești condimentați (Sucuk), cașcaval artizanal topit (Ou extra 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
       {
-        "title": "Pide & B├Ârek",
+        "title": "Pide & Börek",
         "items": [
           {
-            "name": "Pide K─▒r tradi╚øional",
-            "description": "Aluat artizanal moale cu carne tocat─â condimentat─â, br├ónz─â sau cartofi",
-            "price": "60 Ôé║"
+            "name": "Pide Kır tradițional",
+            "description": "Aluat artizanal moale cu carne tocată condimentată, brânză sau cartofi",
+            "price": "60 ₺"
           },
           {
-            "name": "Pl─âcint─â rulat─â (Kol b├Âre─şi)",
-            "description": "Foi crocante rulate manual cu carne tocat─â, br├ónz─â artizanal─â, cartofi, spanac sau tahini",
-            "price": "140 Ôé║"
+            "name": "Plăcintă rulată (Kol böreği)",
+            "description": "Foi crocante rulate manual cu carne tocată, brânză artizanală, cartofi, spanac sau tahini",
+            "price": "140 ₺"
           },
           {
-            "name": "Pl─âcint─â cu straturi ├«n stil otoman",
-            "description": "Foi de pl─âcint─â fierte, lucrate manual (Su b├Âre─şi), unt premium, br├ónz─â alb─â artizanal─â",
-            "price": "140 Ôé║"
+            "name": "Plăcintă cu straturi în stil otoman",
+            "description": "Foi de plăcintă fierte, lucrate manual (Su böreği), unt premium, brânză albă artizanală",
+            "price": "140 ₺"
           },
           {
-            "name": "Pl─âcint─â crocant─â cu unt",
-            "description": "Foi crocante lucrate manual, unt premium. Servit─â tradi╚øional cu zah─âr pudr─â.",
-            "price": "120 Ôé║"
+            "name": "Plăcintă crocantă cu unt",
+            "description": "Foi crocante lucrate manual, unt premium. Servită tradițional cu zahăr pudră.",
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "B─âuturi",
+        "title": "Băuturi",
         "items": [
           {
             "name": "Cola",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
             "name": "Suc acidulat turcesc",
             "description": "Clasic/Portocale",
-            "price": "50 Ôé║"
+            "price": "50 ₺"
           },
           {
             "name": "Suc de fructe",
-            "description": "Piersici/Vi╚Öine/Mix",
-            "price": "60 Ôé║"
+            "description": "Piersici/Vișine/Mix",
+            "price": "60 ₺"
           },
           {
             "name": "Ceai rece",
-            "description": "L─âm├óie/Piersici",
-            "price": "60 Ôé║"
+            "description": "Lămâie/Piersici",
+            "price": "60 ₺"
           },
           {
             "name": "Ayran",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
-            "name": "Ap─â mineral─â",
+            "name": "Apă minerală",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
-            "name": "Ap─â",
+            "name": "Apă",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
             "name": "Ceai autentic",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "Limonad─â de cas─â",
+            "name": "Limonadă de casă",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
-            "name": "Cafea turceasc─â",
+            "name": "Cafea turcească",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
     ]
   },
   "az": {
-    "restaurantName": "H├╝nkar Pide B├Ârek",
+    "restaurantName": "Hünkar Pide Börek",
     "sections": [
       {
-        "title": "┼Şefin T├Âvsiy╔Ösi",
+        "title": "Şefin Tövsiyəsi",
         "items": [
           {
-            "name": "Pal─▒d formal─▒ Qarad╔Öniz pidesi",
-            "description": "─░nc╔Ö x─▒rt─▒ldayan x╔Ömir, h╔Öqiqi Rize qovurmas─▒, k╔Ör╔Ö ya─ş─▒, pal─▒d formas─▒, ┼şefin t├Âvsiy╔Ösi",
-            "price": "450 Ôé║"
+            "name": "Palıd formalı Qaradəniz pidesi",
+            "description": "İncə xırtıldayan xəmir, həqiqi Rize qovurması, kərə yağı, palıd forması, şefin tövsiyəsi",
+            "price": "450 ₺"
           }
         ]
       },
       {
-        "title": "Qarad╔Öniz pidesi",
+        "title": "Qaradəniz pidesi",
         "items": [
           {
-            "name": "Qiym╔Öli pide",
-            "description": "X├╝susi 'H├╝nkar-├╝sulu' qiym╔Öli i├ğlik (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Qiyməli pide",
+            "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik (Əlavə yumurta 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Qiym╔Öli v╔Ö t╔Ör╔Öv╔Özli",
-            "description": "X├╝susi 'H├╝nkar-├╝sulu' qiym╔Öli i├ğlik, t╔Öz╔Ö pomidor, x─▒rt─▒ldayan ya┼ş─▒l bib╔Ör (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Qiyməli və tərəvəzli",
+            "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Qiym╔Öli v╔Ö artisan pendiri",
-            "description": "X├╝susi 'H├╝nkar-├╝sulu' qiym╔Öli i├ğlik, ╔Örinmi┼ş artisan Ka┼şar pendiri (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Qiyməli və artisan pendiri",
+            "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik, ərinmiş artisan Kaşar pendiri (Əlavə yumurta 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Vrhunski qar─▒┼ş─▒q pide",
-            "description": "X├╝susi 'H├╝nkar-├╝sulu' qiym╔Öli i├ğlik, ╔Örinmi┼ş Ka┼şar pendiri, t╔Öz╔Ö pomidor, x─▒rt─▒ldayan ya┼ş─▒l bib╔Ör (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Vrhunski qarışıq pide",
+            "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik, ərinmiş Kaşar pendiri, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)",
+            "price": "300 ₺"
           },
           {
-            "name": "Qovurmal─▒ pide",
-            "description": "X├╝susi Rize qovurmas─▒ (yava┼ş bi┼şirilmi┼ş mal ╔Öti) (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Qovurmalı pide",
+            "description": "Xüsusi Rize qovurması (yavaş bişirilmiş mal əti) (Əlavə yumurta 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Qovurmal─▒ v╔Ö artisan pendiri",
-            "description": "X├╝susi Rize qovurmas─▒, ╔Örinmi┼ş artisan Ka┼şar pendiri (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Qovurmalı və artisan pendiri",
+            "description": "Xüsusi Rize qovurması, ərinmiş artisan Kaşar pendiri (Əlavə yumurta 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "Qovurmal─▒ v╔Ö t╔Ör╔Öv╔Özli",
-            "description": "X├╝susi Rize qovurmas─▒, t╔Öz╔Ö pomidor, x─▒rt─▒ldayan ya┼ş─▒l bib╔Ör (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "450 Ôé║"
+            "name": "Qovurmalı və tərəvəzli",
+            "description": "Xüsusi Rize qovurması, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)",
+            "price": "450 ₺"
           },
           {
-            "name": "Qar─▒┼ş─▒q qovurmal─▒ v╔Ö t╔Ör╔Öv╔Özli",
-            "description": "X├╝susi Rize qovurmas─▒, ╔Örinmi┼ş Ka┼şar pendiri, t╔Öz╔Ö pomidor, x─▒rt─▒ldayan ya┼ş─▒l bib╔Ör (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "425 Ôé║"
+            "name": "Qarışıq qovurmalı və tərəvəzli",
+            "description": "Xüsusi Rize qovurması, ərinmiş Kaşar pendiri, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)",
+            "price": "425 ₺"
           },
           {
-            "name": "ãÅrinmi┼ş artisan pendirli pide",
-            "description": "ãÅrinmi┼ş y├╝ks╔Ök keyfiyy╔Ötli artisan Ka┼şar pendiri (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Ərinmiş artisan pendirli pide",
+            "description": "Ərinmiş yüksək keyfiyyətli artisan Kaşar pendiri (Əlavə yumurta 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "Pendir v╔Ö t╔Öz╔Ö k╔Önd yumurtas─▒",
-            "description": "ãÅrinmi┼ş artisan Ka┼şar pendiri, t╔Öz╔Ö k╔Önd yumurtas─▒ (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "270 Ôé║"
+            "name": "Pendir və təzə kənd yumurtası",
+            "description": "Ərinmiş artisan Kaşar pendiri, təzə kənd yumurtası (Əlavə yumurta 10 TL)",
+            "price": "270 ₺"
           },
           {
-            "name": "ãÅrinmi┼ş pendir v╔Ö t╔Ör╔Öv╔Öz",
-            "description": "ãÅrinmi┼ş artisan Ka┼şar pendiri, t╔Öz╔Ö pomidor, x─▒rt─▒ldayan ya┼ş─▒l bib╔Ör (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "260 Ôé║"
+            "name": "Ərinmiş pendir və tərəvəz",
+            "description": "Ərinmiş artisan Kaşar pendiri, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)",
+            "price": "260 ₺"
           },
           {
-            "name": "ãÅdviyyatl─▒ mal ╔Öti kolbasas─▒ v╔Ö pendir",
-            "description": "ãÅdviyyatl─▒ t├╝rk mal ╔Öti kolbasas─▒ (Sucuk), ╔Örinmi┼ş artisan Ka┼şar pendiri (ãÅlav╔Ö yumurta 10 TL)",
-            "price": "300 Ôé║"
+            "name": "Ədviyyatlı mal əti kolbasası və pendir",
+            "description": "Ədviyyatlı türk mal əti kolbasası (Sucuk), ərinmiş artisan Kaşar pendiri (Əlavə yumurta 10 TL)",
+            "price": "300 ₺"
           }
         ]
       },
       {
-        "title": "Pide v╔Ö B├Âr╔Ök",
+        "title": "Pide və Börək",
         "items": [
           {
-            "name": "ãÅn╔Ön╔Övi K─▒r pidesi",
-            "description": "M├Âvs├╝mi qiym╔Öli ╔Öt, pendir v╔Ö ya kartof se├ğimi il╔Ö yum┼şaq artisan x╔Ömiri",
-            "price": "60 Ôé║"
+            "name": "Ənənəvi Kır pidesi",
+            "description": "Mövsümi qiyməli ət, pendir və ya kartof seçimi ilə yumşaq artisan xəmiri",
+            "price": "60 ₺"
           },
           {
-            "name": "B├╝km╔Ö b├Âr╔Ök (Kol b├Âre─şi)",
-            "description": "Qiym╔Öli ╔Öt, artisan pendiri, kartof, ispanaq v╔Ö ya tahinli ╔Öl il╔Ö a├ğ─▒lm─▒┼ş x─▒rt─▒ldayan qat-qat x╔Ömir",
-            "price": "140 Ôé║"
+            "name": "Bükmə börək (Kol böreği)",
+            "description": "Qiyməli ət, artisan pendiri, kartof, ispanaq və ya tahinli əl ilə açılmış xırtıldayan qat-qat xəmir",
+            "price": "140 ₺"
           },
           {
-            "name": "Osmanl─▒ ├╝slublu qat-qat b├Âr╔Ök",
-            "description": "ãÅl il╔Ö a├ğ─▒lm─▒┼ş qaynad─▒lm─▒┼ş x╔Ömir qatlar─▒ (Su b├Âre─şi), y├╝ks╔Ök keyfiyy╔Ötli k╔Ör╔Ö ya─ş─▒, artisan a─ş pendir",
-            "price": "140 Ôé║"
+            "name": "Osmanlı üslublu qat-qat börək",
+            "description": "Əl ilə açılmış qaynadılmış xəmir qatları (Su böreği), yüksək keyfiyyətli kərə yağı, artisan ağ pendir",
+            "price": "140 ₺"
           },
           {
-            "name": "K╔Ör╔Ö ya─şl─▒ x─▒rt─▒ldayan b├Âr╔Ök",
-            "description": "ãÅl il╔Ö a├ğ─▒lm─▒┼ş x─▒rt─▒ldayan x╔Ömir qatlar─▒, y├╝ks╔Ök keyfiyy╔Ötli k╔Ör╔Ö ya─ş─▒. ãÅn╔Ön╔Övi olaraq ├╝z╔Örin╔Ö bol ┼ş╔Ök╔Ör pudras─▒ s╔Öpil╔Ör╔Ök yeyilir.",
-            "price": "120 Ôé║"
+            "name": "Kərə yağlı xırtıldayan börək",
+            "description": "Əl ilə açılmış xırtıldayan xəmir qatları, yüksək keyfiyyətli kərə yağı. Ənənəvi olaraq üzərinə bol şəkər pudrası səpilərək yeyilir.",
+            "price": "120 ₺"
           }
         ]
       },
       {
-        "title": "─░├ğkil╔Ör",
+        "title": "İçkilər",
         "items": [
           {
             "name": "Kola",
             "description": "",
-            "price": "60 Ôé║"
+            "price": "60 ₺"
           },
           {
-            "name": "T├╝rk qazl─▒ suyu",
-            "description": "Klassik/Porta─şal",
-            "price": "50 Ôé║"
+            "name": "Türk qazlı suyu",
+            "description": "Klassik/Portağal",
+            "price": "50 ₺"
           },
           {
-            "name": "Meyv╔Ö ┼şir╔Ösi",
-            "description": "┼Şaftal─▒/Vi┼şn╔Ö/Qar─▒┼ş─▒q",
-            "price": "60 Ôé║"
+            "name": "Meyvə şirəsi",
+            "description": "Şaftalı/Vişnə/Qarışıq",
+            "price": "60 ₺"
           },
           {
-            "name": "Soyuq ├ğay",
-            "description": "Limon/┼Şaftal─▒",
-            "price": "60 Ôé║"
+            "name": "Soyuq çay",
+            "description": "Limon/Şaftalı",
+            "price": "60 ₺"
           },
           {
             "name": "Ayran",
             "description": "",
-            "price": "40 Ôé║"
+            "price": "40 ₺"
           },
           {
             "name": "Mineral su",
             "description": "",
-            "price": "30 Ôé║"
+            "price": "30 ₺"
           },
           {
             "name": "Su",
             "description": "",
-            "price": "15 Ôé║"
+            "price": "15 ₺"
           },
           {
-            "name": "H╔Öqiqi ├ğay",
+            "name": "Həqiqi çay",
             "description": "",
-            "price": "25 Ôé║"
+            "price": "25 ₺"
           },
           {
-            "name": "Ev yap─▒m─▒ limonad",
+            "name": "Ev yapımı limonad",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           },
           {
-            "name": "T├╝rk q╔Öhv╔Ösi",
+            "name": "Türk qəhvəsi",
             "description": "",
-            "price": "70 Ôé║"
+            "price": "70 ₺"
           }
         ]
       }
