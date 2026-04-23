@@ -335,6 +335,260 @@ fa_sections = [
   ]}
 ]
 
+bs_sections = [
+  {"title": "Šefova preporuka", "items": [{"name": "Crnomorski pide u obliku žira", "description": "Tanko hrskavo tijesto, autentična Rize kavurma, puter, oblik žira, preporuka šefa"}]},
+  {"title": "Crnomorski pide", "items": [
+    {"name": "Pide sa mljevenim mesom", "description": "Specijalni fil od mljevenog mesa na Hünkar način (Ekstra jaje 10 TL)"},
+    {"name": "Mljeveno meso i povrće", "description": "Specijalni fil od mljevenog mesa na Hünkar način, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)"},
+    {"name": "Mljeveno meso i artisan sir", "description": "Specijalni fil od mljevenog mesa na Hünkar način, otopljeni artisan Kašar sir (Ekstra jaje 10 TL)"},
+    {"name": "Vrhunski miješani pide", "description": "Specijalni fil od mljevenog mesa na Hünkar način, otopljeni Kašar sir, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)"},
+    {"name": "Pide sa pečenom govedinom", "description": "Vrhunska sporo pečena Rize govedina (Kavurma) (Ekstra jaje 10 TL)"},
+    {"name": "Pečena govedina i artisan sir", "description": "Vrhunska sporo pečena Rize govedina (Kavurma), otopljeni artisan Kašar sir (Ekstra jaje 10 TL)"},
+    {"name": "Pečena govedina i povrće", "description": "Vrhunska sporo pečena Rize govedina (Kavurma), svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)"},
+    {"name": "Miješana govedina, povrće i sir", "description": "Vrhunska sporo pečena Rize govedina (Kavurma), otopljeni Kašar sir, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)"},
+    {"name": "Pide sa otopljenim artisan sirom", "description": "Otopljeni vrhunski artisan Kašar sir (Ekstra jaje 10 TL)"},
+    {"name": "Artisan sir i svježe jaje", "description": "Otopljeni artisan Kašar sir, domaće svježe jaje (Ekstra jaje 10 TL)"},
+    {"name": "Otopljeni sir i povrće", "description": "Otopljeni artisan Kašar sir, svježi paradajz, hrskava zelena paprika (Ekstra jaje 10 TL)"},
+    {"name": "Začinjena goveđa kobasica i sir", "description": "Začinjena turska goveđa kobasica (Sucuk), otopljeni artisan Kašar sir (Ekstra jaje 10 TL)"}
+  ]},
+  {"title": "Pide & Pita", "items": [
+    {"name": "Tradicionalni Kır pide", "description": "Meko artisan tijesto sa izborom začinjenog mljevenog mesa, sira ili krompira"},
+    {"name": "Rolovana pita (Kol böreği)", "description": "Ručno rađeno hrskavo tijesto sa mljevenim mesom, artisan sirom, krompirom, špinatom ili tahinijem"},
+    {"name": "Slojevita pita u osmanskom stilu", "description": "Ručno razvijeno kuhano tijesto (Su böreği), vrhunski puter, artisan bijeli sir"},
+    {"name": "Prhka pita sa puterom", "description": "Ručno rađeno hrskavo tijesto, vrhunski puter. Tradicionalno se služi sa šećerom u prahu."}
+  ]},
+  {"title": "Pića", "items": [
+    {"name": "Cola", "description": ""},
+    {"name": "Gazirani sok", "description": "Klasični/Narandža"},
+    {"name": "Voćni sok", "description": "Breskva/Višnja/Miješano"},
+    {"name": "Ledeni čaj", "description": "Limun/Breskva"},
+    {"name": "Ayran", "description": ""},
+    {"name": "Mineralna voda", "description": ""},
+    {"name": "Voda", "description": ""},
+    {"name": "Autentični čaj", "description": ""},
+    {"name": "Domaća limunada", "description": ""},
+    {"name": "Turska kafa", "description": ""}
+  ]}
+]
+
+sq_sections = [
+  {"title": "Sugjerimi i shefit", "items": [{"name": "Pide e Detit të Zi në formë lisi", "description": "Brumë i hollë krokant, kavurmë autentike Rize, gjalpë, në formë lisi, sugjerimi i shefit"}]},
+  {"title": "Pide e Detit të Zi", "items": [
+    {"name": "Pide me mish të grirë", "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar (Vezë ekstra 10 TL)"},
+    {"name": "Mish i grirë dhe perime", "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)"},
+    {"name": "Mish i grirë dhe djathë artizanal", "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar, djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)"},
+    {"name": "Pide e përzier supreme", "description": "Mbushje speciale me mish të grirë sipas mënyrës Hünkar, djathë kaçkavall i shkrirë, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)"},
+    {"name": "Pide me mish viçi të pjekur", "description": "Mish viçi Rize i pjekur ngadalë (Kavurma) (Vezë ekstra 10 TL)"},
+    {"name": "Mish i pjekur dhe djathë artizanal", "description": "Mish viçi Rize i pjekur ngadalë (Kavurma), djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)"},
+    {"name": "Mish i pjekur dhe perime", "description": "Mish viçi Rize i pjekur ngadalë (Kavurma), domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)"},
+    {"name": "Mish i pjekur, perime dhe djathë", "description": "Mish viçi Rize i pjekur ngadalë (Kavurma), djathë kaçkavall i shkrirë, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)"},
+    {"name": "Pide me djathë artizanal të shkrirë", "description": "Djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)"},
+    {"name": "Djathë artizanal dhe vezë fshati", "description": "Djathë kaçkavall artizanal i shkrirë, vezë fshati e freskët (Vezë ekstra 10 TL)"},
+    {"name": "Djathë i shkrirë dhe perime", "description": "Djathë kaçkavall artizanal i shkrirë, domate të freskëta, spec i gjelbër krokant (Vezë ekstra 10 TL)"},
+    {"name": "Salsiçe viçi me erëza dhe djathë", "description": "Salsiçe viçi turke me erëza (Sucuk), djathë kaçkavall artizanal i shkrirë (Vezë ekstra 10 TL)"}
+  ]},
+  {"title": "Pide & Byrek", "items": [
+    {"name": "Pide Kır tradicionale", "description": "Brumë artizanal i butë me zgjedhjen tuaj të mishit të grirë, djathit ose patateve"},
+    {"name": "Byrek i rrotulluar (Kol böreği)", "description": "Shtresa brumi krokant të rrotulluara me dorë me mish të grirë, djathë artizanal, patate, spinaq ose tahini"},
+    {"name": "Byrek me shtresa i stilit osman", "description": "Shtresa brumi të ziera të punuara me dorë (Su böreği), gjalpë i shkrirë, djathë i bardhë artizanal"},
+    {"name": "Byrek me gjalpë", "description": "Shtresa brumi krokant të punuara me dorë, gjalpë i shkrirë. Tradicionalisht shijohet me sheqer pluhur."}
+  ]},
+  {"title": "Pije", "items": [
+    {"name": "Kola", "description": ""},
+    {"name": "Pije me gaz", "description": "Klasike/Portokall"},
+    {"name": "Lëng frutash", "description": "Pjeshkë/Qershi/I përzier"},
+    {"name": "Iced Tea", "description": "Limon/Pjeshkë"},
+    {"name": "Ajran", "description": ""},
+    {"name": "Ujë mineral", "description": ""},
+    {"name": "Ujë", "description": ""},
+    {"name": "Çaj autentik", "description": ""},
+    {"name": "Limonatë artizanale", "description": ""},
+    {"name": "Kafe turke", "description": ""}
+  ]}
+]
+
+de_sections = [
+  {"title": "Empfehlung des Küchenchefs", "items": [{"name": "Schwarzmeer-Pide in Eichelform", "description": "Dünner knuspriger Teig, authentisches Rize-Kavurma, Butter, Eichelform, Empfehlung des Chefs"}]},
+  {"title": "Schwarzmeer-Pide", "items": [
+    {"name": "Pide mit Hackfleisch", "description": "Hünkar-Spezialmischung mit Hackfleisch (Extra Ei 10 TL)"},
+    {"name": "Hackfleisch & Gemüse", "description": "Hünkar-Spezialmischung mit Hackfleisch, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)"},
+    {"name": "Hackfleisch & Käse", "description": "Hünkar-Spezialmischung mit Hackfleisch, geschmolzener Artisan-Kaşar-Käse (Extra Ei 10 TL)"},
+    {"name": "Vrhunski Mixed Pide", "description": "Hünkar-Spezialmischung mit Hackfleisch, geschmolzener Kaşar-Käse, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)"},
+    {"name": "Pide mit Röstfleisch", "description": "Premium Rize-Kavurma (langsam geröstetes Rindfleisch) (Extra Ei 10 TL)"},
+    {"name": "Röstfleisch & Käse", "description": "Premium Rize-Kavurma, geschmolzener Artisan-Kaşar-Käse (Extra Ei 10 TL)"},
+    {"name": "Röstfleisch & Gemüse", "description": "Premium Rize-Kavurma, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)"},
+    {"name": "Mixed Röstfleisch & Gemüse", "description": "Premium Rize-Kavurma, geschmolzener Kaşar-Käse, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)"},
+    {"name": "Pide mit geschmolzenem Artisan-Käse", "description": "Geschmolzener Premium Artisan-Kaşar-Käse (Extra Ei 10 TL)"},
+    {"name": "Käse & frisches Land-Ei", "description": "Geschmolzener Artisan-Kaşar-Käse, frisches Land-Ei (Extra Ei 10 TL)"},
+    {"name": "Geschmolzener Käse & Gemüse", "description": "Geschmolzener Artisan-Kaşar-Käse, frische Tomaten, knackige grüne Paprika (Extra Ei 10 TL)"},
+    {"name": "Würzige Rinderwurst & Käse", "description": "Würzige türkische Rinderwurst (Sucuk), geschmolzener Artisan-Kaşar-Käse (Extra Ei 10 TL)"}
+  ]},
+  {"title": "Pide & Börek", "items": [
+    {"name": "Traditionelles Kır Pide", "description": "Weicher Artisan-Teig mit Hackfleisch-, Käse- oder Kartoffelfüllung"},
+    {"name": "Gerolltes Gebäck (Kol böreği)", "description": "Handgerollte knusprige Teigschichten mit Hackfleisch, Käse, Kartoffeln, Spinat oder Tahini"},
+    {"name": "Geschichtetes Gebäck nach osmanischer Art", "description": "Handgezogene gekochte Teigschichten (Su böreği), feine Butter, Artisan-Weißkäse"},
+    {"name": "Blättriges Buttergebäck", "description": "Handgerollte knusprige Teigschichten, feine Butter. Traditionell mit Puderzucker serviert."}
+  ]},
+  {"title": "Getränke", "items": [
+    {"name": "Cola", "description": ""},
+    {"name": "Türkische Limonade", "description": "Klassisch/Orange"},
+    {"name": "Fruchtsaft", "description": "Pfirsich/Sauerkirsche/Gemischt"},
+    {"name": "Eistee", "description": "Zitrone/Pfirsich"},
+    {"name": "Ayran", "description": ""},
+    {"name": "Mineralwasser", "description": ""},
+    {"name": "Wasser", "description": ""},
+    {"name": "Authentischer Schwarzmeer-Tee", "description": ""},
+    {"name": "Hausgemachte Limonade", "description": ""},
+    {"name": "Türkischer Kaffee", "description": ""}
+  ]}
+]
+
+bg_sections = [
+  {"title": "Препоръка на главния готвач", "items": [{"name": "Черноморско пиде с форма на жълъд", "description": "Тънко хрупкаво тесто, автентична Риза кавурма, масло, форма на жълъд, препоръка на шефа"}]},
+  {"title": "Черноморско пиде", "items": [
+    {"name": "Пиде с кайма", "description": "Специална смес от кайма по стил Hünkar (Екстра яйце 10 TL)"},
+    {"name": "Кайма и зеленчуци", "description": "Специална смес от кайма по стил Hünkar, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)"},
+    {"name": "Кайма и занаятчийско сирене", "description": "Специална смес от кайма по стил Hünkar, разтопено занаятчийско сирене Кашкавал (Екстра яйце 10 TL)"},
+    {"name": "Върховно смесено пиде", "description": "Специална смес от кайма по стил Hünkar, разтопен кашкавал, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)"},
+    {"name": "Пиде с печено говеждо", "description": "Първокласно бавно печено говеждо Риза (Кавурма) (Екстра яйце 10 TL)"},
+    {"name": "Печено говеждо и занаятчийско сирене", "description": "Първокласно бавно печено говеждо Риза (Кавурма), разтопено занаятчийско сирене Кашкавал (Екстра яйце 10 TL)"},
+    {"name": "Печено говеждо и зеленчуци", "description": "Първокласно бавно печено говеждо Риза (Кавурма), пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)"},
+    {"name": "Смесено печено говеждо и зеленчуци", "description": "Първокласно бавно печено говеждо Риза (Кавурма), разтопен кашкавал, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)"},
+    {"name": "Пиде с разтопено занаятчийско сирене", "description": "Разтопено първокласно занаятчийско сирене Кашкавал (Екстра яйце 10 TL)"},
+    {"name": "Сирене и прясно селско яйце", "description": "Разтопено занаятчийско сирене Кашкавал, прясно селско яйце (Екстра яйце 10 TL)"},
+    {"name": "Разтопено сирене и зеленчуци", "description": "Разтопено занаятчийско сирене Кашкавал, пресни домати, хрупкави зелени чушки (Екстра яйце 10 TL)"},
+    {"name": "Пикантен говежди салам и сирене", "description": "Пикантен турски говежди салам (Суджук), разтопено занаятчийско сирене Кашкавал (Екстра яйце 10 TL)"}
+  ]},
+  {"title": "Пиде и Бюрек", "items": [
+    {"name": "Традиционно Кър пиде", "description": "Меко занаятчийско тесто с избор от кайма, сирене или картофи"},
+    {"name": "Навита баница (Kol böreği)", "description": "Ръчно навити хрупкави кори с кайма, занаятчийско сирене, картофи, спанак или тахан"},
+    {"name": "Слоена баница в османски стил", "description": "Ръчно разточени варени кори (Su böreği), първокласно масло, занаятчийско бяло сирене"},
+    {"name": "Маслена хрупкава баница", "description": "Ръчно навити хрупкави кори, първокласно масло. Традиционно се сервира с пудра захар."}
+  ]},
+  {"title": "Напитки", "items": [
+    {"name": "Кола", "description": ""},
+    {"name": "Турска газирана напитка", "description": "Класик/Портокал"},
+    {"name": "Плодов сок", "description": "Праскова/Вишна/Микс"},
+    {"name": "Студен чай", "description": "Лимон/Праскова"},
+    {"name": "Айрян", "description": ""},
+    {"name": "Минерална вода", "description": ""},
+    {"name": "Вода", "description": ""},
+    {"name": "Автентичен турски чай", "description": ""},
+    {"name": "Ръчно правена лимонада", "description": ""},
+    {"name": "Турско кафе", "description": ""}
+  ]}
+]
+
+el_sections = [
+  {"title": "Πρόταση του Σεφ", "items": [{"name": "Πίντε Μαύρης Θάλασσας σε σχήμα βελανιδιού", "description": "Λεπτή τραγανή ζύμη, αυθεντικό καβουρμά Ριζέ, βούτυρο, σχήμα βελανιδιού, πρόταση του σεφ"}]},
+  {"title": "Πίντε Μαύρης Θάλασσας", "items": [
+    {"name": "Πίντε με κιμά", "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar (Έξτρα αυγό 10 TL)"},
+    {"name": "Κιμάς & λαχανικά", "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)"},
+    {"name": "Κιμάς & χειροποίητο κασέρι", "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar, λιωμένο χειροποίητο κασέρι (Έξτρα αυγό 10 TL)"},
+    {"name": "Πίντε Σουπρίμ ανάμεικτο", "description": "Ειδικό μείγμα κιμά σε στυλ Hünkar, λιωμένο κασέρι, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)"},
+    {"name": "Πίντε με ψητό μοσχάρι", "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς) (Έξτρα αυγό 10 TL)"},
+    {"name": "Ψητό μοσχάρι & χειροποίητο κασέρι", "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς), λιωμένο χειροποίητο κασέρι (Έξτρα αυγό 10 TL)"},
+    {"name": "Ψητό μοσχάρι & λαχανικά", "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς), φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)"},
+    {"name": "Ανάμεικτο ψητό μοσχάρι & λαχανικά", "description": "Εκλεκτό σιγοψημένο μοσχάρι Ριζέ (Καβουρμάς), λιωμένο κασέρι, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)"},
+    {"name": "Πίντε με λιωμένο χειροποίητο κασέρι", "description": "Λιωμένο εκλεκτό χειροποίητο κασέρι (Έξτρα αυγό 10 TL)"},
+    {"name": "Κασέρι & φρέσκο χωριάτικο αυγό", "description": "Λιωμένο χειροποίητο κασέρι, φρέσκο χωριάτικο αυγό (Έξτρα αυγό 10 TL)"},
+    {"name": "Λιωμένο κασέρι & λαχανικά", "description": "Λιωμένο χειροποίητο κασέρι, φρέσκια ντομάτα, τραγανή πράσινη πιπεριά (Έξτρα αυγό 10 TL)"},
+    {"name": "Πικάντικο μοσχαρίσιο λουκάνικο & κασέρι", "description": "Πικάντικο τούρκικο μοσχαρίσιο λουκάνικο (Σουτζούκι), λιωμένο χειροποίητο κασέρι (Έξτρα αυγό 10 TL)"}
+  ]},
+  {"title": "Πίντε & Μπουρέκι", "items": [
+    {"name": "Παραδοσιακό Κιρ Πίντε", "description": "Μαλακή χειροποίητη ζύμη με επιλογή από κιμά, τυρί ή πατάτα"},
+    {"name": "Τυλιχτή πίτα (Kol böreği)", "description": "Χειροποίητα τραγανά φύλλα με κιμά, χειροποίητο τυρί, πατάτα, σπανάκι ή ταχίνι"},
+    {"name": "Πίτα με στρώσεις οθωμανικού τύπου", "description": "Χειροποίητα βραστά φύλλα (Su böreği), εκλεκτό βούτυρο, χειροποίητο λευκό τυρί"},
+    {"name": "Τραγανή πίτα βουτύρου", "description": "Χειροποίητα τραγανά φύλλα, εκλεκτό βούτυρο. Παραδοσιακά σερβίρεται με άχνη ζάχαρη."}
+  ]},
+  {"title": "Ποτά", "items": [
+    {"name": "Κόλα", "description": ""},
+    {"name": "Τούρκικη γκαζόζα", "description": "Κλασική/Πορτοκάλι"},
+    {"name": "Χυμός φρούτων", "description": "Ροδάκινο/Βύσσινο/Ανάμεικτος"},
+    {"name": "Κρύο τσάι", "description": "Λεμόνι/Ροδάκινο"},
+    {"name": "Αϊράνι", "description": ""},
+    {"name": "Ανθρακούχο νερό", "description": ""},
+    {"name": "Νερό", "description": ""},
+    {"name": "Αυθεντικό τσάι", "description": ""},
+    {"name": "Χειροποίητη λεμονάδα", "description": ""},
+    {"name": "Τούρκικος καφές", "description": ""}
+  ]}
+]
+
+ro_sections = [
+  {"title": "Recomandarea Bucătarului", "items": [{"name": "Pide de la Marea Neagră în formă de ghindă", "description": "Aluat subțire crocant, kavurma autentică de Rize, unt, formă de ghindă, recomandarea bucătarului"}]},
+  {"title": "Pide de la Marea Neagră", "items": [
+    {"name": "Pide cu carne tocată", "description": "Amestec special de carne tocată în stil Hünkar (Ou extra 10 TL)"},
+    {"name": "Carne tocată și legume", "description": "Amestec special de carne tocată în stil Hünkar, roșii proaspete, ardei verde crocant (Ou extra 10 TL)"},
+    {"name": "Carne tocată și cașcaval artizanal", "description": "Amestec special de carne tocată în stil Hünkar, cașcaval artizanal topit (Ou extra 10 TL)"},
+    {"name": "Pide mixt suprem", "description": "Amestec special de carne tocată în stil Hünkar, cașcaval topit, roșii proaspete, ardei verde crocant (Ou extra 10 TL)"},
+    {"name": "Pide cu vită la cuptor", "description": "Vită de Rize premium gătită lent (Kavurma) (Ou extra 10 TL)"},
+    {"name": "Vită la cuptor și cașcaval", "description": "Vită de Rize premium gătită lent (Kavurma), cașcaval artizanal topit (Ou extra 10 TL)"},
+    {"name": "Vită la cuptor și legume", "description": "Vită de Rize premium gătită lent (Kavurma), roșii proaspete, ardei verde crocant (Ou extra 10 TL)"},
+    {"name": "Mix de vită, legume și cașcaval", "description": "Vită de Rize premium gătită lent (Kavurma), cașcaval topit, roșii proaspete, ardei verde crocant (Ou extra 10 TL)"},
+    {"name": "Pide cu cașcaval artizanal topit", "description": "Cașcaval artizanal premium topit (Ou extra 10 TL)"},
+    {"name": "Cașcaval și ou proaspăt de țară", "description": "Cașcaval artizanal topit, ou proaspăt de țară (Ou extra 10 TL)"},
+    {"name": "Cașcaval topit și legume", "description": "Cașcaval artizanal topit, roșii proaspete, ardei verde crocant (Ou extra 10 TL)"},
+    {"name": "Cârnați de vită condimentați și cașcaval", "description": "Cârnați de vită turcești condimentați (Sucuk), cașcaval artizanal topit (Ou extra 10 TL)"}
+  ]},
+  {"title": "Pide & Börek", "items": [
+    {"name": "Pide Kır tradițional", "description": "Aluat artizanal moale cu carne tocată condimentată, brânză sau cartofi"},
+    {"name": "Plăcintă rulată (Kol böreği)", "description": "Foi crocante rulate manual cu carne tocată, brânză artizanală, cartofi, spanac sau tahini"},
+    {"name": "Plăcintă cu straturi în stil otoman", "description": "Foi de plăcintă fierte, lucrate manual (Su böreği), unt premium, brânză albă artizanală"},
+    {"name": "Plăcintă crocantă cu unt", "description": "Foi crocante lucrate manual, unt premium. Servită tradițional cu zahăr pudră."}
+  ]},
+  {"title": "Băuturi", "items": [
+    {"name": "Cola", "description": ""},
+    {"name": "Suc acidulat turcesc", "description": "Clasic/Portocale"},
+    {"name": "Suc de fructe", "description": "Piersici/Vișine/Mix"},
+    {"name": "Ceai rece", "description": "Lămâie/Piersici"},
+    {"name": "Ayran", "description": ""},
+    {"name": "Apă minerală", "description": ""},
+    {"name": "Apă", "description": ""},
+    {"name": "Ceai autentic", "description": ""},
+    {"name": "Limonadă de casă", "description": ""},
+    {"name": "Cafea turcească", "description": ""}
+  ]}
+]
+
+az_sections = [
+  {"title": "Şefin Tövsiyəsi", "items": [{"name": "Palıd formalı Qaradəniz pidesi", "description": "İncə xırtıldayan xəmir, həqiqi Rize qovurması, kərə yağı, palıd forması, şefin tövsiyəsi"}]},
+  {"title": "Qaradəniz pidesi", "items": [
+    {"name": "Qiyməli pide", "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik (Əlavə yumurta 10 TL)"},
+    {"name": "Qiyməli və tərəvəzli", "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)"},
+    {"name": "Qiyməli və artisan pendiri", "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik, ərinmiş artisan Kaşar pendiri (Əlavə yumurta 10 TL)"},
+    {"name": "Vrhunski qarışıq pide", "description": "Xüsusi 'Hünkar-üsulu' qiyməli içlik, ərinmiş Kaşar pendiri, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)"},
+    {"name": "Qovurmalı pide", "description": "Xüsusi Rize qovurması (yavaş bişirilmiş mal əti) (Əlavə yumurta 10 TL)"},
+    {"name": "Qovurmalı və artisan pendiri", "description": "Xüsusi Rize qovurması, ərinmiş artisan Kaşar pendiri (Əlavə yumurta 10 TL)"},
+    {"name": "Qovurmalı və tərəvəzli", "description": "Xüsusi Rize qovurması, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)"},
+    {"name": "Qarışıq qovurmalı və tərəvəzli", "description": "Xüsusi Rize qovurması, ərinmiş Kaşar pendiri, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)"},
+    {"name": "Ərinmiş artisan pendirli pide", "description": "Ərinmiş yüksək keyfiyyətli artisan Kaşar pendiri (Əlavə yumurta 10 TL)"},
+    {"name": "Pendir və təzə kənd yumurtası", "description": "Ərinmiş artisan Kaşar pendiri, təzə kənd yumurtası (Əlavə yumurta 10 TL)"},
+    {"name": "Ərinmiş pendir və tərəvəz", "description": "Ərinmiş artisan Kaşar pendiri, təzə pomidor, xırtıldayan yaşıl bibər (Əlavə yumurta 10 TL)"},
+    {"name": "Ədviyyatlı mal əti kolbasası və pendir", "description": "Ədviyyatlı türk mal əti kolbasası (Sucuk), ərinmiş artisan Kaşar pendiri (Əlavə yumurta 10 TL)"}
+  ]},
+  {"title": "Pide və Börək", "items": [
+    {"name": "Ənənəvi Kır pidesi", "description": "Mövsümi qiyməli ət, pendir və ya kartof seçimi ilə yumşaq artisan xəmiri"},
+    {"name": "Bükmə börək (Kol böreği)", "description": "Qiyməli ət, artisan pendiri, kartof, ispanaq və ya tahinli əl ilə açılmış xırtıldayan qat-qat xəmir"},
+    {"name": "Osmanlı üslublu qat-qat börək", "description": "Əl ilə açılmış qaynadılmış xəmir qatları (Su böreği), yüksək keyfiyyətli kərə yağı, artisan ağ pendir"},
+    {"name": "Kərə yağlı xırtıldayan börək", "description": "Əl ilə açılmış xırtıldayan xəmir qatları, yüksək keyfiyyətli kərə yağı. Ənənəvi olaraq üzərinə bol şəkər pudrası səpilərək yeyilir."}
+  ]},
+  {"title": "İçkilər", "items": [
+    {"name": "Kola", "description": ""},
+    {"name": "Türk qazlı suyu", "description": "Klassik/Portağal"},
+    {"name": "Meyvə şirəsi", "description": "Şaftalı/Vişnə/Qarışıq"},
+    {"name": "Soyuq çay", "description": "Limon/Şaftalı"},
+    {"name": "Ayran", "description": ""},
+    {"name": "Mineral su", "description": ""},
+    {"name": "Su", "description": ""},
+    {"name": "Həqiqi çay", "description": ""},
+    {"name": "Ev yapımı limonad", "description": ""},
+    {"name": "Türk qəhvəsi", "description": ""}
+  ]}
+]
+
+# We must get TR sections dynamically from the original file 
+
 # We must get TR sections dynamically from the original file 
 with open('index.html', 'r', encoding='utf-8') as f:
     html_content = f.read()
@@ -370,6 +624,22 @@ merged_data['it']['sections'] = populate_prices(it_sections)
 merged_data['fr']['sections'] = populate_prices(fr_sections)
 merged_data['ru']['sections'] = populate_prices(ru_sections)
 merged_data['fa']['sections'] = populate_prices(fa_sections)
+
+# New languages
+new_langs = {
+    'bs': bs_sections,
+    'sq': sq_sections,
+    'de': de_sections,
+    'bg': bg_sections,
+    'el': el_sections,
+    'ro': ro_sections,
+    'az': az_sections
+}
+
+for l_code, l_sections in new_langs.items():
+    if l_code not in merged_data:
+        merged_data[l_code] = {"restaurantName": "Hünkar Pide Börek", "sections": []}
+    merged_data[l_code]['sections'] = populate_prices(l_sections)
 
 # Update MENU_DATA in HTML
 new_menu_json_str = json.dumps(merged_data, ensure_ascii=False)
