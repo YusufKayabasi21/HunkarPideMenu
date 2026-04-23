@@ -612,10 +612,8 @@
 </style>
 <script>
   (function() {
-    const savedTheme = localStorage.getItem('hunkar_theme');
-    if (savedTheme) {
-      document.documentElement.setAttribute('data-theme', savedTheme);
-    }
+    // Theme is handled entirely by CSS prefers-color-scheme.
+    // No localStorage persistence - site always matches the system setting.
   })();
 </script>
 </head>
@@ -698,15 +696,13 @@
   }
   function toggleTheme() {
     let currentTheme = document.documentElement.getAttribute('data-theme');
-    
-    // If no attribute set, determine from system
+    // If no override set, determine effective theme from system
     if (!currentTheme) {
       currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
-    
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('hunkar_theme', newTheme);
+    // No localStorage - preference resets to system on next page load
   }
   function switchLang(lang) {
     if (!MENU_DATA[lang]) return;
