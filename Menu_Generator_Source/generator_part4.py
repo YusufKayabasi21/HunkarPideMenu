@@ -17,6 +17,17 @@ html_template = """<!DOCTYPE html>
     --accent: #D4AF37;
   }
   
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0F1210;
+      --card-bg: #1A1F1C;
+      --text: #E8F0EF;
+      --text-light: #A0B0AF;
+      --border: #26302B;
+      --primary: #3DAE48;
+    }
+  }
+
   [data-theme="dark"] {
     --bg: #0F1210;
     --card-bg: #1A1F1C;
@@ -24,6 +35,15 @@ html_template = """<!DOCTYPE html>
     --text-light: #A0B0AF;
     --border: #26302B;
     --primary: #3DAE48;
+  }
+  
+  [data-theme="light"] {
+    --bg: #F8FAF9;
+    --card-bg: #FFFFFF;
+    --text: #2C3E3D;
+    --text-light: #6B7C7B;
+    --border: #E8F0EF;
+    --accent: #D4AF37;
   }
   
   * {
@@ -89,8 +109,16 @@ html_template = """<!DOCTYPE html>
     transform: scale(0.95);
   }
   .sun-icon { display: none; }
+  
+  /* Show correct icon based on active state */
   [data-theme="dark"] .moon-icon { display: none; }
   [data-theme="dark"] .sun-icon { display: block; }
+  
+  /* Fallback for system preference when no data-theme is set */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .moon-icon { display: none; }
+    :root:not([data-theme="light"]) .sun-icon { display: block; }
+  }
   .lang-select-wrapper {
     position: relative;
     width: 100%;
@@ -661,15 +689,19 @@ html_template = """<!DOCTYPE html>
     const savedTheme = localStorage.getItem('hunkar_theme');
     if (savedTheme) {
       document.documentElement.setAttribute('data-theme', savedTheme);
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.documentElement.setAttribute('data-theme', 'dark');
     }
     
     renderLangSwitcher(activeLang);
     renderMenu(activeLang);
   }
   function toggleTheme() {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
+    let currentTheme = document.documentElement.getAttribute('data-theme');
+    
+    // If no attribute set, determine from system
+    if (!currentTheme) {
+      currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('hunkar_theme', newTheme);
