@@ -610,6 +610,14 @@
   }
   .scroll-top-btn:active { transform: scale(0.94); }
 </style>
+<script>
+  (function() {
+    const savedTheme = localStorage.getItem('hunkar_theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    }
+  })();
+</script>
 </head>
 <body>
 <div class="container">
@@ -684,12 +692,6 @@
   function init() {
     const savedLang = localStorage.getItem('hunkar_lang') || 'tr';
     const activeLang = LANGS.includes(savedLang) ? savedLang : 'tr';
-    
-    // Theme logic
-    const savedTheme = localStorage.getItem('hunkar_theme');
-    if (savedTheme) {
-      document.documentElement.setAttribute('data-theme', savedTheme);
-    }
     
     renderLangSwitcher(activeLang);
     renderMenu(activeLang);
