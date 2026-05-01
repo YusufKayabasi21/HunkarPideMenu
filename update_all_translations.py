@@ -8,7 +8,7 @@ price_map = {
     10: "260 ₺", 11: "270 ₺", 12: "260 ₺", 13: "300 ₺",
     14: "60 ₺", 15: "140 ₺", 16: "140 ₺", 17: "120 ₺",
     18: "60 ₺", 19: "50 ₺", 20: "60 ₺", 21: "60 ₺", 22: "40 ₺",
-    23: "30 ₺", 24: "15 ₺", 25: "25 ₺", 26: "90 ₺", 27: "70 ₺"
+    23: "30 ₺", 24: "15 ₺", 25: "25 ₺", 26: "0 ₺", 27: "70 ₺"
 }
 
 tr_sections = [
@@ -42,7 +42,7 @@ tr_sections = [
     {"name": "Soda", "description": ""},
     {"name": "Su", "description": ""},
     {"name": "Çay", "description": ""},
-    {"name": "Limonata", "description": ""},
+    {"name": "El Yapımı Limonata", "description": ""},
     {"name": "Türk Kahvesi", "description": ""}
   ]}
 ]
@@ -222,7 +222,7 @@ it_sections = [
     {"name": "Acqua Minerale", "description": ""},
     {"name": "Acqua", "description": ""},
     {"name": "Autentico Tè del Mar Nero", "description": ""},
-    {"name": "Limonada Artigianale", "description": ""},
+    {"name": "Limonata Artigianale", "description": ""},
     {"name": "Caffè Turco", "description": ""}
   ]}
 ]
